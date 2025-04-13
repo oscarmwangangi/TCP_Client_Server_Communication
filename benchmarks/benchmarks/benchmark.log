@@ -1,0 +1,635 @@
+2025-04-13 03:43:47,418 [INFO    ] Starting TCP Search Server Benchmark
+2025-04-13 03:43:47,420 [INFO    ] Generating test files...
+2025-04-13 03:43:47,421 [INFO    ] Running benchmark suite...
+2025-04-13 03:43:47,422 [INFO    ] Testing LINEAR search with MEMORY on 10,000 records
+2025-04-13 03:43:47,725 [INFO    ] Testing LINEAR search with RE-READ on 10,000 records
+2025-04-13 03:43:48,083 [INFO    ] Testing BINARY search with MEMORY on 10,000 records
+2025-04-13 03:43:48,195 [INFO    ] Testing BINARY search with RE-READ on 10,000 records
+2025-04-13 03:43:48,561 [INFO    ] Testing LINEAR search with MEMORY on 50,000 records
+2025-04-13 03:43:48,773 [INFO    ] Testing LINEAR search with RE-READ on 50,000 records
+2025-04-13 03:43:49,241 [INFO    ] Testing BINARY search with MEMORY on 50,000 records
+2025-04-13 03:43:49,337 [INFO    ] Testing BINARY search with RE-READ on 50,000 records
+2025-04-13 03:43:49,559 [INFO    ] Testing LINEAR search with MEMORY on 100,000 records
+2025-04-13 03:43:49,673 [INFO    ] Testing LINEAR search with RE-READ on 100,000 records
+2025-04-13 03:43:50,118 [INFO    ] Testing BINARY search with MEMORY on 100,000 records
+2025-04-13 03:43:50,976 [INFO    ] Testing BINARY search with RE-READ on 100,000 records
+2025-04-13 03:43:52,160 [INFO    ] Testing LINEAR search with MEMORY on 200,000 records
+2025-04-13 03:43:52,752 [INFO    ] Testing LINEAR search with RE-READ on 200,000 records
+2025-04-13 03:43:53,558 [INFO    ] Testing BINARY search with MEMORY on 200,000 records
+2025-04-13 03:43:53,918 [INFO    ] Testing BINARY search with RE-READ on 200,000 records
+2025-04-13 03:43:55,750 [INFO    ] Validating performance...
+2025-04-13 03:43:55,952 [INFO    ] PASS: LINEAR search (REREAD_OFF) - Average: 1.36ms <= 100ms, 99th Percentile: 14.27ms <= 150ms, 99.9th Percentile: 39.78ms <= 200ms
+2025-04-13 03:43:55,957 [INFO    ] PASS: LINEAR search (REREAD_ON) - Average: 1.94ms <= 500ms, 99th Percentile: 14.47ms <= 750ms, 99.9th Percentile: 19.32ms <= 1000ms
+2025-04-13 03:43:55,965 [INFO    ] PASS: BINARY search (REREAD_OFF) - Average: 0.86ms <= 15ms, 99th Percentile: 4.83ms <= 50ms, 99.9th Percentile: 7.34ms <= 70ms
+2025-04-13 03:43:55,975 [INFO    ] PASS: BINARY search (REREAD_ON) - Average: 3.74ms <= 50ms, 99th Percentile: 49.40ms <= 100ms, 99.9th Percentile: 95.36ms <= 150ms
+2025-04-13 03:43:55,978 [INFO    ] Creating visualizations...
+2025-04-13 03:44:21,790 [INFO    ] Generated comprehensive performance plots
+2025-04-13 03:44:21,791 [INFO    ] Generating final report...
+2025-04-13 03:44:21,792 [ERROR   ] Failed to generate PDF report: [Errno 2] No such file or directory: 'C:\\Users\\ADMIN\\Desktop\\tcp_search_server\\benchmarks\\dejavu-sans\\DejaVuSans.ttf'
+2025-04-13 03:44:21,793 [INFO    ] Benchmark completed in 34.37 seconds. Final status: PASS
+2025-04-13 03:52:31,721 [INFO    ] Starting TCP Search Server Benchmark
+2025-04-13 03:52:31,734 [INFO    ] Generating test files...
+2025-04-13 03:52:31,736 [INFO    ] Running benchmark suite...
+2025-04-13 03:52:31,737 [INFO    ] Testing LINEAR search with MEMORY on 10,000 records
+2025-04-13 03:52:32,044 [INFO    ] Testing LINEAR search with RE-READ on 10,000 records
+2025-04-13 03:52:33,071 [INFO    ] Testing BINARY search with MEMORY on 10,000 records
+2025-04-13 03:52:33,152 [INFO    ] Testing BINARY search with RE-READ on 10,000 records
+2025-04-13 03:52:35,040 [INFO    ] Testing LINEAR search with MEMORY on 50,000 records
+2025-04-13 03:52:35,493 [INFO    ] Testing LINEAR search with RE-READ on 50,000 records
+2025-04-13 03:52:36,695 [INFO    ] Testing BINARY search with MEMORY on 50,000 records
+2025-04-13 03:52:37,609 [INFO    ] Testing BINARY search with RE-READ on 50,000 records
+2025-04-13 03:52:38,838 [INFO    ] Testing LINEAR search with MEMORY on 100,000 records
+2025-04-13 03:52:39,087 [INFO    ] Testing LINEAR search with RE-READ on 100,000 records
+2025-04-13 03:52:40,084 [INFO    ] Testing BINARY search with MEMORY on 100,000 records
+2025-04-13 03:52:40,495 [INFO    ] Testing BINARY search with RE-READ on 100,000 records
+2025-04-13 03:52:42,554 [INFO    ] Testing LINEAR search with MEMORY on 200,000 records
+2025-04-13 03:52:43,087 [INFO    ] Testing LINEAR search with RE-READ on 200,000 records
+2025-04-13 03:52:44,507 [INFO    ] Testing BINARY search with MEMORY on 200,000 records
+2025-04-13 03:52:45,571 [INFO    ] Testing BINARY search with RE-READ on 200,000 records
+2025-04-13 03:52:48,871 [INFO    ] Validating performance...
+2025-04-13 03:52:49,220 [INFO    ] PASS: LINEAR search (REREAD_OFF) - Average: 1.24ms <= 100ms, 99th Percentile: 15.30ms <= 150ms, 99.9th Percentile: 38.72ms <= 200ms
+2025-04-13 03:52:49,234 [INFO    ] PASS: LINEAR search (REREAD_ON) - Average: 3.47ms <= 500ms, 99th Percentile: 28.50ms <= 750ms, 99.9th Percentile: 78.96ms <= 1000ms
+2025-04-13 03:52:49,256 [INFO    ] FAIL: BINARY search (REREAD_OFF) - Average: 2.59ms <= 15ms, 99th Percentile: 57.51ms > 50ms, 99.9th Percentile: 91.09ms > 70ms
+2025-04-13 03:52:49,273 [INFO    ] FAIL: BINARY search (REREAD_ON) - Average: 7.48ms <= 50ms, 99th Percentile: 58.59ms <= 100ms, 99.9th Percentile: 180.59ms > 150ms
+2025-04-13 03:52:49,289 [INFO    ] Creating visualizations...
+2025-04-13 03:53:10,808 [INFO    ] Generated comprehensive performance plots
+2025-04-13 03:53:10,857 [INFO    ] Generating final report...
+2025-04-13 03:53:11,115 [ERROR   ] Failed to generate PDF report: 'charmap' codec can't decode byte 0x90 in position 32: character maps to <undefined>
+2025-04-13 03:53:11,122 [INFO    ] Benchmark completed in 39.39 seconds. Final status: FAIL
+2025-04-13 03:53:21,954 [INFO    ] Starting TCP Search Server Benchmark
+2025-04-13 03:53:21,955 [INFO    ] Generating test files...
+2025-04-13 03:53:21,956 [INFO    ] Running benchmark suite...
+2025-04-13 03:53:21,956 [INFO    ] Testing LINEAR search with MEMORY on 10,000 records
+2025-04-13 03:53:22,230 [INFO    ] Testing LINEAR search with RE-READ on 10,000 records
+2025-04-13 03:53:23,014 [INFO    ] Testing BINARY search with MEMORY on 10,000 records
+2025-04-13 03:53:23,500 [INFO    ] Testing BINARY search with RE-READ on 10,000 records
+2025-04-13 03:53:25,224 [INFO    ] Testing LINEAR search with MEMORY on 50,000 records
+2025-04-13 03:53:25,657 [INFO    ] Testing LINEAR search with RE-READ on 50,000 records
+2025-04-13 03:53:26,766 [INFO    ] Testing BINARY search with MEMORY on 50,000 records
+2025-04-13 03:53:27,201 [INFO    ] Testing BINARY search with RE-READ on 50,000 records
+2025-04-13 03:53:28,675 [INFO    ] Testing LINEAR search with MEMORY on 100,000 records
+2025-04-13 03:53:29,088 [INFO    ] Testing LINEAR search with RE-READ on 100,000 records
+2025-04-13 03:53:30,218 [INFO    ] Testing BINARY search with MEMORY on 100,000 records
+2025-04-13 03:53:31,060 [INFO    ] Testing BINARY search with RE-READ on 100,000 records
+2025-04-13 03:53:32,291 [INFO    ] Testing LINEAR search with MEMORY on 200,000 records
+2025-04-13 03:53:32,813 [INFO    ] Testing LINEAR search with RE-READ on 200,000 records
+2025-04-13 03:53:34,918 [INFO    ] Testing BINARY search with MEMORY on 200,000 records
+2025-04-13 03:53:35,546 [INFO    ] Testing BINARY search with RE-READ on 200,000 records
+2025-04-13 03:53:37,104 [INFO    ] Validating performance...
+2025-04-13 03:53:37,126 [INFO    ] PASS: LINEAR search (REREAD_OFF) - Average: 1.22ms <= 100ms, 99th Percentile: 7.18ms <= 150ms, 99.9th Percentile: 12.15ms <= 200ms
+2025-04-13 03:53:37,135 [INFO    ] PASS: LINEAR search (REREAD_ON) - Average: 5.19ms <= 500ms, 99th Percentile: 43.58ms <= 750ms, 99.9th Percentile: 57.22ms <= 1000ms
+2025-04-13 03:53:37,152 [INFO    ] PASS: BINARY search (REREAD_OFF) - Average: 1.53ms <= 15ms, 99th Percentile: 15.74ms <= 50ms, 99.9th Percentile: 19.47ms <= 70ms
+2025-04-13 03:53:37,159 [INFO    ] PASS: BINARY search (REREAD_ON) - Average: 3.57ms <= 50ms, 99th Percentile: 18.19ms <= 100ms, 99.9th Percentile: 24.16ms <= 150ms
+2025-04-13 03:53:37,160 [INFO    ] Creating visualizations...
+2025-04-13 03:53:40,536 [INFO    ] Generated comprehensive performance plots
+2025-04-13 03:53:40,537 [INFO    ] Generating final report...
+2025-04-13 03:53:40,558 [ERROR   ] Failed to generate PDF report: [Errno 2] No such file or directory: 'C:\\Users\\ADMIN\\Desktop\\tcp_search_server\\benchmarks\\dejavu-sans\\DejaVuSans.ttf'
+2025-04-13 03:53:40,620 [INFO    ] Benchmark completed in 18.66 seconds. Final status: PASS
+2025-04-13 03:54:32,222 [INFO    ] Starting TCP Search Server Benchmark
+2025-04-13 03:54:32,223 [INFO    ] Generating test files...
+2025-04-13 03:54:32,224 [INFO    ] Running benchmark suite...
+2025-04-13 03:54:32,224 [INFO    ] Testing LINEAR search with MEMORY on 10,000 records
+2025-04-13 03:54:32,535 [INFO    ] Testing LINEAR search with RE-READ on 10,000 records
+2025-04-13 03:54:34,045 [INFO    ] Testing BINARY search with MEMORY on 10,000 records
+2025-04-13 03:54:34,474 [INFO    ] Testing BINARY search with RE-READ on 10,000 records
+2025-04-13 03:54:35,374 [INFO    ] Testing LINEAR search with MEMORY on 50,000 records
+2025-04-13 03:54:35,879 [INFO    ] Testing LINEAR search with RE-READ on 50,000 records
+2025-04-13 03:54:37,371 [INFO    ] Testing BINARY search with MEMORY on 50,000 records
+2025-04-13 03:54:37,785 [INFO    ] Testing BINARY search with RE-READ on 50,000 records
+2025-04-13 03:54:38,725 [INFO    ] Testing LINEAR search with MEMORY on 100,000 records
+2025-04-13 03:54:39,120 [INFO    ] Testing LINEAR search with RE-READ on 100,000 records
+2025-04-13 03:54:40,636 [INFO    ] Testing BINARY search with MEMORY on 100,000 records
+2025-04-13 03:54:40,919 [INFO    ] Testing BINARY search with RE-READ on 100,000 records
+2025-04-13 03:54:41,856 [INFO    ] Testing LINEAR search with MEMORY on 200,000 records
+2025-04-13 03:54:42,293 [INFO    ] Testing LINEAR search with RE-READ on 200,000 records
+2025-04-13 03:54:43,659 [INFO    ] Testing BINARY search with MEMORY on 200,000 records
+2025-04-13 03:54:44,057 [INFO    ] Testing BINARY search with RE-READ on 200,000 records
+2025-04-13 03:54:45,366 [INFO    ] Validating performance...
+2025-04-13 03:54:45,408 [INFO    ] PASS: LINEAR search (REREAD_OFF) - Average: 1.06ms <= 100ms, 99th Percentile: 4.93ms <= 150ms, 99.9th Percentile: 5.66ms <= 200ms
+2025-04-13 03:54:45,466 [INFO    ] PASS: LINEAR search (REREAD_ON) - Average: 3.36ms <= 500ms, 99th Percentile: 51.87ms <= 750ms, 99.9th Percentile: 80.85ms <= 1000ms
+2025-04-13 03:54:45,505 [INFO    ] PASS: BINARY search (REREAD_OFF) - Average: 0.93ms <= 15ms, 99th Percentile: 4.43ms <= 50ms, 99.9th Percentile: 6.46ms <= 70ms
+2025-04-13 03:54:45,524 [INFO    ] PASS: BINARY search (REREAD_ON) - Average: 3.05ms <= 50ms, 99th Percentile: 18.82ms <= 100ms, 99.9th Percentile: 40.60ms <= 150ms
+2025-04-13 03:54:45,566 [INFO    ] Creating visualizations...
+2025-04-13 03:54:48,274 [INFO    ] Generated comprehensive performance plots
+2025-04-13 03:54:48,280 [INFO    ] Generating final report...
+2025-04-13 03:54:48,282 [ERROR   ] Failed to generate PDF report: 'charmap' codec can't decode byte 0x90 in position 32: character maps to <undefined>
+2025-04-13 03:54:48,283 [INFO    ] Benchmark completed in 16.06 seconds. Final status: PASS
+2025-04-13 03:57:55,063 [INFO    ] Starting TCP Search Server Benchmark
+2025-04-13 03:57:55,087 [INFO    ] Generating test files...
+2025-04-13 03:57:55,088 [INFO    ] Running benchmark suite...
+2025-04-13 03:57:55,090 [INFO    ] Testing LINEAR search with MEMORY on 10,000 records
+2025-04-13 03:57:55,462 [INFO    ] Testing LINEAR search with RE-READ on 10,000 records
+2025-04-13 03:57:56,368 [INFO    ] Testing BINARY search with MEMORY on 10,000 records
+2025-04-13 03:57:56,794 [INFO    ] Testing BINARY search with RE-READ on 10,000 records
+2025-04-13 03:57:57,676 [INFO    ] Testing LINEAR search with MEMORY on 50,000 records
+2025-04-13 03:57:57,996 [INFO    ] Testing LINEAR search with RE-READ on 50,000 records
+2025-04-13 03:57:58,962 [INFO    ] Testing BINARY search with MEMORY on 50,000 records
+2025-04-13 03:57:59,380 [INFO    ] Testing BINARY search with RE-READ on 50,000 records
+2025-04-13 03:58:00,763 [INFO    ] Testing LINEAR search with MEMORY on 100,000 records
+2025-04-13 03:58:01,273 [INFO    ] Testing LINEAR search with RE-READ on 100,000 records
+2025-04-13 03:58:04,958 [INFO    ] Testing BINARY search with MEMORY on 100,000 records
+2025-04-13 03:58:05,602 [INFO    ] Testing BINARY search with RE-READ on 100,000 records
+2025-04-13 03:58:07,232 [INFO    ] Testing LINEAR search with MEMORY on 200,000 records
+2025-04-13 03:58:07,544 [INFO    ] Testing LINEAR search with RE-READ on 200,000 records
+2025-04-13 03:58:08,508 [INFO    ] Testing BINARY search with MEMORY on 200,000 records
+2025-04-13 03:58:08,744 [INFO    ] Testing BINARY search with RE-READ on 200,000 records
+2025-04-13 03:58:09,643 [INFO    ] Validating performance...
+2025-04-13 03:58:09,810 [INFO    ] PASS: LINEAR search (REREAD_OFF) - Average: 0.70ms <= 100ms, 99th Percentile: 6.75ms <= 150ms, 99.9th Percentile: 10.22ms <= 200ms
+2025-04-13 03:58:09,814 [INFO    ] PASS: LINEAR search (REREAD_ON) - Average: 2.35ms <= 500ms, 99th Percentile: 13.55ms <= 750ms, 99.9th Percentile: 45.58ms <= 1000ms
+2025-04-13 03:58:09,818 [INFO    ] PASS: BINARY search (REREAD_OFF) - Average: 0.54ms <= 15ms, 99th Percentile: 4.91ms <= 50ms, 99.9th Percentile: 15.72ms <= 70ms
+2025-04-13 03:58:09,827 [INFO    ] PASS: BINARY search (REREAD_ON) - Average: 1.76ms <= 50ms, 99th Percentile: 10.22ms <= 100ms, 99.9th Percentile: 19.56ms <= 150ms
+2025-04-13 03:58:09,828 [INFO    ] Creating visualizations...
+2025-04-13 03:58:18,963 [INFO    ] Generated comprehensive performance plots
+2025-04-13 03:58:18,964 [INFO    ] Generating final report...
+2025-04-13 03:58:19,026 [ERROR   ] Failed to generate PDF report: 'charmap' codec can't decode byte 0x90 in position 32: character maps to <undefined>
+2025-04-13 03:58:19,026 [INFO    ] Benchmark completed in 23.94 seconds. Final status: PASS
+2025-04-13 04:18:00,008 [INFO    ] Starting TCP Search Server Benchmark
+2025-04-13 04:18:00,024 [INFO    ] Generating test files...
+2025-04-13 04:18:00,025 [INFO    ] Running benchmark suite...
+2025-04-13 04:18:00,025 [INFO    ] Testing LINEAR search with MEMORY on 10,000 records
+2025-04-13 04:18:02,214 [INFO    ] Testing LINEAR search with RE-READ on 10,000 records
+2025-04-13 04:18:04,511 [INFO    ] Testing BINARY search with MEMORY on 10,000 records
+2025-04-13 04:18:05,008 [INFO    ] Testing BINARY search with RE-READ on 10,000 records
+2025-04-13 04:18:06,438 [INFO    ] Testing LINEAR search with MEMORY on 50,000 records
+2025-04-13 04:18:06,913 [INFO    ] Testing LINEAR search with RE-READ on 50,000 records
+2025-04-13 04:18:07,984 [INFO    ] Testing BINARY search with MEMORY on 50,000 records
+2025-04-13 04:18:08,739 [INFO    ] Testing BINARY search with RE-READ on 50,000 records
+2025-04-13 04:18:09,741 [INFO    ] Testing LINEAR search with MEMORY on 100,000 records
+2025-04-13 04:18:10,573 [INFO    ] Testing LINEAR search with RE-READ on 100,000 records
+2025-04-13 04:18:12,043 [INFO    ] Testing BINARY search with MEMORY on 100,000 records
+2025-04-13 04:18:13,076 [INFO    ] Testing BINARY search with RE-READ on 100,000 records
+2025-04-13 04:18:13,942 [INFO    ] Testing LINEAR search with MEMORY on 200,000 records
+2025-04-13 04:18:14,276 [INFO    ] Testing LINEAR search with RE-READ on 200,000 records
+2025-04-13 04:18:15,404 [INFO    ] Testing BINARY search with MEMORY on 200,000 records
+2025-04-13 04:18:15,888 [INFO    ] Testing BINARY search with RE-READ on 200,000 records
+2025-04-13 04:18:17,861 [INFO    ] Validating performance...
+2025-04-13 04:18:18,471 [INFO    ] PASS: LINEAR search (REREAD_OFF) - Average: 0.80ms <= 100ms, 99th Percentile: 5.03ms <= 150ms, 99.9th Percentile: 6.25ms <= 200ms
+2025-04-13 04:18:18,476 [INFO    ] PASS: LINEAR search (REREAD_ON) - Average: 2.79ms <= 500ms, 99th Percentile: 39.07ms <= 750ms, 99.9th Percentile: 82.79ms <= 1000ms
+2025-04-13 04:18:18,482 [INFO    ] PASS: BINARY search (REREAD_OFF) - Average: 1.16ms <= 15ms, 99th Percentile: 9.56ms <= 50ms, 99.9th Percentile: 16.79ms <= 70ms
+2025-04-13 04:18:18,490 [INFO    ] PASS: BINARY search (REREAD_ON) - Average: 3.22ms <= 50ms, 99th Percentile: 45.97ms <= 100ms, 99.9th Percentile: 62.96ms <= 150ms
+2025-04-13 04:18:18,492 [INFO    ] Creating visualizations...
+2025-04-13 04:18:35,044 [INFO    ] Generated comprehensive performance plots
+2025-04-13 04:18:35,045 [INFO    ] Generating final report...
+2025-04-13 04:18:35,131 [ERROR   ] Failed to generate PDF report: 'charmap' codec can't decode byte 0x90 in position 32: character maps to <undefined>
+2025-04-13 04:18:35,132 [INFO    ] Benchmark completed in 35.11 seconds. Final status: PASS
+2025-04-13 04:23:00,925 [INFO    ] Starting TCP Search Server Benchmark
+2025-04-13 04:23:00,928 [INFO    ] Generating test files...
+2025-04-13 04:23:00,931 [INFO    ] Running benchmark suite...
+2025-04-13 04:23:00,932 [INFO    ] Testing LINEAR search with MEMORY on 10,000 records
+2025-04-13 04:23:01,647 [INFO    ] Testing LINEAR search with RE-READ on 10,000 records
+2025-04-13 04:23:03,431 [INFO    ] Testing BINARY search with MEMORY on 10,000 records
+2025-04-13 04:23:03,813 [INFO    ] Testing BINARY search with RE-READ on 10,000 records
+2025-04-13 04:23:04,692 [INFO    ] Testing LINEAR search with MEMORY on 50,000 records
+2025-04-13 04:23:05,071 [INFO    ] Testing LINEAR search with RE-READ on 50,000 records
+2025-04-13 04:23:06,359 [INFO    ] Testing BINARY search with MEMORY on 50,000 records
+2025-04-13 04:23:06,723 [INFO    ] Testing BINARY search with RE-READ on 50,000 records
+2025-04-13 04:23:07,639 [INFO    ] Testing LINEAR search with MEMORY on 100,000 records
+2025-04-13 04:23:08,412 [INFO    ] Testing LINEAR search with RE-READ on 100,000 records
+2025-04-13 04:23:09,474 [INFO    ] Testing BINARY search with MEMORY on 100,000 records
+2025-04-13 04:23:09,867 [INFO    ] Testing BINARY search with RE-READ on 100,000 records
+2025-04-13 04:23:11,188 [INFO    ] Testing LINEAR search with MEMORY on 200,000 records
+2025-04-13 04:23:11,540 [INFO    ] Testing LINEAR search with RE-READ on 200,000 records
+2025-04-13 04:23:12,744 [INFO    ] Testing BINARY search with MEMORY on 200,000 records
+2025-04-13 04:23:13,112 [INFO    ] Testing BINARY search with RE-READ on 200,000 records
+2025-04-13 04:23:15,791 [INFO    ] Validating performance...
+2025-04-13 04:23:15,804 [INFO    ] PASS: LINEAR search (REREAD_OFF) - Average: 0.84ms <= 100ms, 99th Percentile: 3.41ms <= 150ms, 99.9th Percentile: 4.30ms <= 200ms
+2025-04-13 04:23:15,817 [INFO    ] PASS: LINEAR search (REREAD_ON) - Average: 2.95ms <= 500ms, 99th Percentile: 36.88ms <= 750ms, 99.9th Percentile: 67.40ms <= 1000ms
+2025-04-13 04:23:15,826 [INFO    ] PASS: BINARY search (REREAD_OFF) - Average: 0.86ms <= 15ms, 99th Percentile: 8.14ms <= 50ms, 99.9th Percentile: 17.31ms <= 70ms
+2025-04-13 04:23:15,831 [INFO    ] FAIL: BINARY search (REREAD_ON) - Average: 6.56ms <= 50ms, 99th Percentile: 102.92ms <= 100ms, 99.9th Percentile: 300.60ms > 150ms
+2025-04-13 04:23:15,833 [INFO    ] Creating visualizations...
+2025-04-13 04:23:18,418 [INFO    ] Generated comprehensive performance plots
+2025-04-13 04:23:18,418 [INFO    ] Generating final report...
+2025-04-13 04:23:18,419 [ERROR   ] Failed to generate PDF report: 'UnicodePDF' object has no attribute 'set_doc_option'
+2025-04-13 04:23:18,419 [INFO    ] Benchmark completed in 17.49 seconds. Final status: FAIL
+2025-04-13 04:24:01,149 [INFO    ] Starting TCP Search Server Benchmark
+2025-04-13 04:24:01,150 [INFO    ] Generating test files...
+2025-04-13 04:24:01,150 [INFO    ] Running benchmark suite...
+2025-04-13 04:24:01,151 [INFO    ] Testing LINEAR search with MEMORY on 10,000 records
+2025-04-13 04:24:01,549 [INFO    ] Testing LINEAR search with RE-READ on 10,000 records
+2025-04-13 04:24:02,309 [INFO    ] Testing BINARY search with MEMORY on 10,000 records
+2025-04-13 04:24:02,815 [INFO    ] Testing BINARY search with RE-READ on 10,000 records
+2025-04-13 04:24:04,132 [INFO    ] Testing LINEAR search with MEMORY on 50,000 records
+2025-04-13 04:24:04,554 [INFO    ] Testing LINEAR search with RE-READ on 50,000 records
+2025-04-13 04:24:05,991 [INFO    ] Testing BINARY search with MEMORY on 50,000 records
+2025-04-13 04:24:06,978 [INFO    ] Testing BINARY search with RE-READ on 50,000 records
+2025-04-13 04:24:08,465 [INFO    ] Testing LINEAR search with MEMORY on 100,000 records
+2025-04-13 04:24:09,319 [INFO    ] Testing LINEAR search with RE-READ on 100,000 records
+2025-04-13 04:24:10,965 [INFO    ] Testing BINARY search with MEMORY on 100,000 records
+2025-04-13 04:24:12,133 [INFO    ] Testing BINARY search with RE-READ on 100,000 records
+2025-04-13 04:24:14,557 [INFO    ] Testing LINEAR search with MEMORY on 200,000 records
+2025-04-13 04:24:15,128 [INFO    ] Testing LINEAR search with RE-READ on 200,000 records
+2025-04-13 04:24:16,827 [INFO    ] Testing BINARY search with MEMORY on 200,000 records
+2025-04-13 04:24:18,142 [INFO    ] Testing BINARY search with RE-READ on 200,000 records
+2025-04-13 04:24:19,943 [INFO    ] Validating performance...
+2025-04-13 04:24:19,965 [INFO    ] PASS: LINEAR search (REREAD_OFF) - Average: 1.35ms <= 100ms, 99th Percentile: 14.76ms <= 150ms, 99.9th Percentile: 16.74ms <= 200ms
+2025-04-13 04:24:19,984 [INFO    ] PASS: LINEAR search (REREAD_ON) - Average: 4.10ms <= 500ms, 99th Percentile: 46.67ms <= 750ms, 99.9th Percentile: 87.25ms <= 1000ms
+2025-04-13 04:24:19,988 [INFO    ] FAIL: BINARY search (REREAD_OFF) - Average: 3.23ms <= 15ms, 99th Percentile: 64.23ms > 50ms, 99.9th Percentile: 163.57ms > 70ms
+2025-04-13 04:24:20,007 [INFO    ] PASS: BINARY search (REREAD_ON) - Average: 4.27ms <= 50ms, 99th Percentile: 32.84ms <= 100ms, 99.9th Percentile: 92.54ms <= 150ms
+2025-04-13 04:24:20,016 [INFO    ] Creating visualizations...
+2025-04-13 04:24:23,665 [INFO    ] Generated comprehensive performance plots
+2025-04-13 04:24:23,666 [INFO    ] Generating final report...
+2025-04-13 04:24:23,666 [ERROR   ] Failed to generate PDF report: 'charmap' codec can't decode byte 0x90 in position 32: character maps to <undefined>
+2025-04-13 04:24:23,667 [INFO    ] Benchmark completed in 22.52 seconds. Final status: FAIL
+2025-04-13 04:24:38,796 [INFO    ] Starting TCP Search Server Benchmark
+2025-04-13 04:24:38,797 [INFO    ] Generating test files...
+2025-04-13 04:24:38,797 [INFO    ] Running benchmark suite...
+2025-04-13 04:24:38,798 [INFO    ] Testing LINEAR search with MEMORY on 10,000 records
+2025-04-13 04:24:39,216 [INFO    ] Testing LINEAR search with RE-READ on 10,000 records
+2025-04-13 04:24:40,414 [INFO    ] Testing BINARY search with MEMORY on 10,000 records
+2025-04-13 04:24:40,741 [INFO    ] Testing BINARY search with RE-READ on 10,000 records
+2025-04-13 04:24:42,091 [INFO    ] Testing LINEAR search with MEMORY on 50,000 records
+2025-04-13 04:24:42,535 [INFO    ] Testing LINEAR search with RE-READ on 50,000 records
+2025-04-13 04:24:43,097 [INFO    ] Testing BINARY search with MEMORY on 50,000 records
+2025-04-13 04:24:43,241 [INFO    ] Testing BINARY search with RE-READ on 50,000 records
+2025-04-13 04:24:44,485 [INFO    ] Testing LINEAR search with MEMORY on 100,000 records
+2025-04-13 04:24:45,005 [INFO    ] Testing LINEAR search with RE-READ on 100,000 records
+2025-04-13 04:24:46,276 [INFO    ] Testing BINARY search with MEMORY on 100,000 records
+2025-04-13 04:24:46,588 [INFO    ] Testing BINARY search with RE-READ on 100,000 records
+2025-04-13 04:24:47,512 [INFO    ] Testing LINEAR search with MEMORY on 200,000 records
+2025-04-13 04:24:48,081 [INFO    ] Testing LINEAR search with RE-READ on 200,000 records
+2025-04-13 04:24:49,102 [INFO    ] Testing BINARY search with MEMORY on 200,000 records
+2025-04-13 04:24:49,617 [INFO    ] Testing BINARY search with RE-READ on 200,000 records
+2025-04-13 04:24:50,871 [INFO    ] Validating performance...
+2025-04-13 04:24:50,883 [INFO    ] PASS: LINEAR search (REREAD_OFF) - Average: 1.35ms <= 100ms, 99th Percentile: 15.45ms <= 150ms, 99.9th Percentile: 32.30ms <= 200ms
+2025-04-13 04:24:50,899 [INFO    ] PASS: LINEAR search (REREAD_ON) - Average: 2.51ms <= 500ms, 99th Percentile: 13.90ms <= 750ms, 99.9th Percentile: 15.02ms <= 1000ms
+2025-04-13 04:24:50,903 [INFO    ] PASS: BINARY search (REREAD_OFF) - Average: 1.24ms <= 15ms, 99th Percentile: 14.28ms <= 50ms, 99.9th Percentile: 27.00ms <= 70ms
+2025-04-13 04:24:50,918 [INFO    ] PASS: BINARY search (REREAD_ON) - Average: 2.48ms <= 50ms, 99th Percentile: 24.48ms <= 100ms, 99.9th Percentile: 41.41ms <= 150ms
+2025-04-13 04:24:50,919 [INFO    ] Creating visualizations...
+2025-04-13 04:24:54,192 [INFO    ] Generated comprehensive performance plots
+2025-04-13 04:24:54,193 [INFO    ] Generating final report...
+2025-04-13 04:24:54,194 [ERROR   ] Failed to generate PDF report: 'charmap' codec can't decode byte 0x90 in position 32: character maps to <undefined>
+2025-04-13 04:24:54,194 [INFO    ] Benchmark completed in 15.40 seconds. Final status: PASS
+2025-04-13 04:25:52,936 [INFO    ] Starting TCP Search Server Benchmark
+2025-04-13 04:25:52,937 [INFO    ] Generating test files...
+2025-04-13 04:25:52,938 [INFO    ] Running benchmark suite...
+2025-04-13 04:25:52,939 [INFO    ] Testing LINEAR search with MEMORY on 10,000 records
+2025-04-13 04:25:53,683 [INFO    ] Testing LINEAR search with RE-READ on 10,000 records
+2025-04-13 04:25:54,738 [INFO    ] Testing BINARY search with MEMORY on 10,000 records
+2025-04-13 04:25:55,363 [INFO    ] Testing BINARY search with RE-READ on 10,000 records
+2025-04-13 04:25:56,279 [INFO    ] Testing LINEAR search with MEMORY on 50,000 records
+2025-04-13 04:25:57,142 [INFO    ] Testing LINEAR search with RE-READ on 50,000 records
+2025-04-13 04:25:58,692 [INFO    ] Testing BINARY search with MEMORY on 50,000 records
+2025-04-13 04:26:00,543 [INFO    ] Testing BINARY search with RE-READ on 50,000 records
+2025-04-13 04:26:01,530 [INFO    ] Testing LINEAR search with MEMORY on 100,000 records
+2025-04-13 04:26:02,098 [INFO    ] Testing LINEAR search with RE-READ on 100,000 records
+2025-04-13 04:26:03,490 [INFO    ] Testing BINARY search with MEMORY on 100,000 records
+2025-04-13 04:26:03,895 [INFO    ] Testing BINARY search with RE-READ on 100,000 records
+2025-04-13 04:26:05,309 [INFO    ] Testing LINEAR search with MEMORY on 200,000 records
+2025-04-13 04:26:05,670 [INFO    ] Testing LINEAR search with RE-READ on 200,000 records
+2025-04-13 04:26:07,006 [INFO    ] Testing BINARY search with MEMORY on 200,000 records
+2025-04-13 04:26:07,778 [INFO    ] Testing BINARY search with RE-READ on 200,000 records
+2025-04-13 04:26:08,669 [INFO    ] Validating performance...
+2025-04-13 04:26:08,675 [INFO    ] PASS: LINEAR search (REREAD_OFF) - Average: 0.85ms <= 100ms, 99th Percentile: 4.80ms <= 150ms, 99.9th Percentile: 11.07ms <= 200ms
+2025-04-13 04:26:08,684 [INFO    ] PASS: LINEAR search (REREAD_ON) - Average: 3.28ms <= 500ms, 99th Percentile: 46.89ms <= 750ms, 99.9th Percentile: 71.59ms <= 1000ms
+2025-04-13 04:26:08,688 [INFO    ] FAIL: BINARY search (REREAD_OFF) - Average: 1.89ms <= 15ms, 99th Percentile: 17.40ms <= 50ms, 99.9th Percentile: 80.02ms > 70ms
+2025-04-13 04:26:08,690 [INFO    ] PASS: BINARY search (REREAD_ON) - Average: 2.12ms <= 50ms, 99th Percentile: 20.23ms <= 100ms, 99.9th Percentile: 82.56ms <= 150ms
+2025-04-13 04:26:08,691 [INFO    ] Creating visualizations...
+2025-04-13 04:26:11,429 [INFO    ] Generated comprehensive performance plots
+2025-04-13 04:26:11,430 [INFO    ] Generating final report...
+2025-04-13 04:26:11,431 [ERROR   ] Failed to generate PDF report: 'charmap' codec can't decode byte 0x90 in position 32: character maps to <undefined>
+2025-04-13 04:26:11,431 [INFO    ] Benchmark completed in 18.49 seconds. Final status: FAIL
+2025-04-13 04:27:18,762 [INFO    ] Starting TCP Search Server Benchmark
+2025-04-13 04:27:18,763 [INFO    ] Generating test files...
+2025-04-13 04:27:18,764 [INFO    ] Running benchmark suite...
+2025-04-13 04:27:18,764 [INFO    ] Testing LINEAR search with MEMORY on 10,000 records
+2025-04-13 04:27:19,351 [INFO    ] Testing LINEAR search with RE-READ on 10,000 records
+2025-04-13 04:27:20,187 [INFO    ] Testing BINARY search with MEMORY on 10,000 records
+2025-04-13 04:27:20,529 [INFO    ] Testing BINARY search with RE-READ on 10,000 records
+2025-04-13 04:27:21,423 [INFO    ] Testing LINEAR search with MEMORY on 50,000 records
+2025-04-13 04:27:21,748 [INFO    ] Testing LINEAR search with RE-READ on 50,000 records
+2025-04-13 04:27:22,950 [INFO    ] Testing BINARY search with MEMORY on 50,000 records
+2025-04-13 04:27:23,353 [INFO    ] Testing BINARY search with RE-READ on 50,000 records
+2025-04-13 04:27:24,771 [INFO    ] Testing LINEAR search with MEMORY on 100,000 records
+2025-04-13 04:27:25,599 [INFO    ] Testing LINEAR search with RE-READ on 100,000 records
+2025-04-13 04:27:26,562 [INFO    ] Testing BINARY search with MEMORY on 100,000 records
+2025-04-13 04:27:27,104 [INFO    ] Testing BINARY search with RE-READ on 100,000 records
+2025-04-13 04:27:28,201 [INFO    ] Testing LINEAR search with MEMORY on 200,000 records
+2025-04-13 04:27:28,562 [INFO    ] Testing LINEAR search with RE-READ on 200,000 records
+2025-04-13 04:27:29,777 [INFO    ] Testing BINARY search with MEMORY on 200,000 records
+2025-04-13 04:27:30,127 [INFO    ] Testing BINARY search with RE-READ on 200,000 records
+2025-04-13 04:27:31,361 [INFO    ] Validating performance...
+2025-04-13 04:27:31,377 [INFO    ] PASS: LINEAR search (REREAD_OFF) - Average: 0.83ms <= 100ms, 99th Percentile: 6.66ms <= 150ms, 99.9th Percentile: 9.85ms <= 200ms
+2025-04-13 04:27:31,380 [INFO    ] PASS: LINEAR search (REREAD_ON) - Average: 2.98ms <= 500ms, 99th Percentile: 35.23ms <= 750ms, 99.9th Percentile: 109.10ms <= 1000ms
+2025-04-13 04:27:31,382 [INFO    ] PASS: BINARY search (REREAD_OFF) - Average: 0.84ms <= 15ms, 99th Percentile: 7.06ms <= 50ms, 99.9th Percentile: 12.68ms <= 70ms
+2025-04-13 04:27:31,393 [INFO    ] PASS: BINARY search (REREAD_ON) - Average: 2.96ms <= 50ms, 99th Percentile: 36.67ms <= 100ms, 99.9th Percentile: 58.35ms <= 150ms
+2025-04-13 04:27:31,396 [INFO    ] Creating visualizations...
+2025-04-13 04:27:34,136 [INFO    ] Generated comprehensive performance plots
+2025-04-13 04:27:34,139 [INFO    ] Generating final report...
+2025-04-13 04:27:34,147 [ERROR   ] Failed to generate PDF report: 'charmap' codec can't decode byte 0x90 in position 32: character maps to <undefined>
+2025-04-13 04:27:34,149 [INFO    ] Benchmark completed in 15.39 seconds. Final status: PASS
+2025-04-13 04:37:32,788 [INFO    ] Starting TCP Search Server Benchmark
+2025-04-13 04:37:32,789 [INFO    ] Generating test files...
+2025-04-13 04:37:32,789 [INFO    ] Running benchmark suite...
+2025-04-13 04:37:32,790 [INFO    ] Testing LINEAR search with MEMORY on 10,000 records
+2025-04-13 04:37:33,152 [INFO    ] Testing LINEAR search with RE-READ on 10,000 records
+2025-04-13 04:37:34,396 [INFO    ] Testing BINARY search with MEMORY on 10,000 records
+2025-04-13 04:37:34,736 [INFO    ] Testing BINARY search with RE-READ on 10,000 records
+2025-04-13 04:37:35,981 [INFO    ] Testing LINEAR search with MEMORY on 50,000 records
+2025-04-13 04:37:36,397 [INFO    ] Testing LINEAR search with RE-READ on 50,000 records
+2025-04-13 04:37:37,251 [INFO    ] Testing BINARY search with MEMORY on 50,000 records
+2025-04-13 04:37:37,570 [INFO    ] Testing BINARY search with RE-READ on 50,000 records
+2025-04-13 04:37:38,855 [INFO    ] Testing LINEAR search with MEMORY on 100,000 records
+2025-04-13 04:37:39,194 [INFO    ] Testing LINEAR search with RE-READ on 100,000 records
+2025-04-13 04:37:40,400 [INFO    ] Testing BINARY search with MEMORY on 100,000 records
+2025-04-13 04:37:40,792 [INFO    ] Testing BINARY search with RE-READ on 100,000 records
+2025-04-13 04:37:41,603 [INFO    ] Testing LINEAR search with MEMORY on 200,000 records
+2025-04-13 04:37:41,926 [INFO    ] Testing LINEAR search with RE-READ on 200,000 records
+2025-04-13 04:37:43,048 [INFO    ] Testing BINARY search with MEMORY on 200,000 records
+2025-04-13 04:37:43,360 [INFO    ] Testing BINARY search with RE-READ on 200,000 records
+2025-04-13 04:37:44,134 [INFO    ] Validating performance...
+2025-04-13 04:37:44,150 [INFO    ] PASS: LINEAR search (REREAD_OFF) - Average: 0.77ms <= 100ms, 99th Percentile: 6.59ms <= 150ms, 99.9th Percentile: 12.23ms <= 200ms
+2025-04-13 04:37:44,155 [INFO    ] PASS: LINEAR search (REREAD_ON) - Average: 2.75ms <= 500ms, 99th Percentile: 37.51ms <= 750ms, 99.9th Percentile: 46.63ms <= 1000ms
+2025-04-13 04:37:44,181 [INFO    ] PASS: BINARY search (REREAD_OFF) - Average: 0.76ms <= 15ms, 99th Percentile: 6.64ms <= 50ms, 99.9th Percentile: 6.95ms <= 70ms
+2025-04-13 04:37:44,194 [INFO    ] PASS: BINARY search (REREAD_ON) - Average: 1.84ms <= 50ms, 99th Percentile: 8.74ms <= 100ms, 99.9th Percentile: 10.04ms <= 150ms
+2025-04-13 04:37:44,195 [INFO    ] Creating visualizations...
+2025-04-13 04:37:44,198 [CRITICAL] Benchmark failed: name 'create_performance_plots' is not defined
+2025-04-13 04:39:19,301 [INFO    ] Starting TCP Search Server Benchmark
+2025-04-13 04:39:19,303 [INFO    ] Generating test files...
+2025-04-13 04:39:19,304 [INFO    ] Running benchmark suite...
+2025-04-13 04:39:19,305 [INFO    ] Testing LINEAR search with MEMORY on 10,000 records
+2025-04-13 04:39:19,885 [INFO    ] Testing LINEAR search with RE-READ on 10,000 records
+2025-04-13 04:39:20,969 [INFO    ] Testing BINARY search with MEMORY on 10,000 records
+2025-04-13 04:39:21,581 [INFO    ] Testing BINARY search with RE-READ on 10,000 records
+2025-04-13 04:39:23,238 [INFO    ] Testing LINEAR search with MEMORY on 50,000 records
+2025-04-13 04:39:24,114 [INFO    ] Testing LINEAR search with RE-READ on 50,000 records
+2025-04-13 04:39:24,844 [INFO    ] Testing BINARY search with MEMORY on 50,000 records
+2025-04-13 04:39:25,134 [INFO    ] Testing BINARY search with RE-READ on 50,000 records
+2025-04-13 04:39:26,196 [INFO    ] Testing LINEAR search with MEMORY on 100,000 records
+2025-04-13 04:39:26,507 [INFO    ] Testing LINEAR search with RE-READ on 100,000 records
+2025-04-13 04:39:27,258 [INFO    ] Testing BINARY search with MEMORY on 100,000 records
+2025-04-13 04:39:27,570 [INFO    ] Testing BINARY search with RE-READ on 100,000 records
+2025-04-13 04:39:28,655 [INFO    ] Testing LINEAR search with MEMORY on 200,000 records
+2025-04-13 04:39:29,511 [INFO    ] Testing LINEAR search with RE-READ on 200,000 records
+2025-04-13 04:39:32,860 [INFO    ] Testing BINARY search with MEMORY on 200,000 records
+2025-04-13 04:39:33,259 [INFO    ] Testing BINARY search with RE-READ on 200,000 records
+2025-04-13 04:39:34,832 [INFO    ] Validating performance...
+2025-04-13 04:39:34,839 [INFO    ] PASS: LINEAR search (REREAD_OFF) - Average: 2.02ms <= 100ms, 99th Percentile: 28.74ms <= 150ms, 99.9th Percentile: 107.05ms <= 200ms
+2025-04-13 04:39:34,846 [INFO    ] PASS: LINEAR search (REREAD_ON) - Average: 8.21ms <= 500ms, 99th Percentile: 134.98ms <= 750ms, 99.9th Percentile: 177.64ms <= 1000ms
+2025-04-13 04:39:34,865 [INFO    ] PASS: BINARY search (REREAD_OFF) - Average: 0.96ms <= 15ms, 99th Percentile: 6.70ms <= 50ms, 99.9th Percentile: 8.44ms <= 70ms
+2025-04-13 04:39:34,878 [INFO    ] PASS: BINARY search (REREAD_ON) - Average: 3.76ms <= 50ms, 99th Percentile: 48.49ms <= 100ms, 99.9th Percentile: 66.34ms <= 150ms
+2025-04-13 04:39:34,885 [INFO    ] Creating visualizations...
+2025-04-13 04:39:38,117 [INFO    ] Generated comprehensive performance plots
+2025-04-13 04:39:38,118 [INFO    ] Generating final report...
+2025-04-13 04:39:38,119 [ERROR   ] Failed to generate PDF report: 'charmap' codec can't decode byte 0x90 in position 32: character maps to <undefined>
+2025-04-13 04:39:38,119 [INFO    ] Benchmark completed in 18.82 seconds. Final status: PASS
+2025-04-13 11:36:46,884 [INFO    ] Starting TCP Search Server Benchmark
+2025-04-13 11:36:46,885 [INFO    ] Generating test files...
+2025-04-13 11:36:46,885 [INFO    ] Running benchmark suite...
+2025-04-13 11:36:46,886 [INFO    ] Testing LINEAR search with MEMORY on 10,000 records
+2025-04-13 11:36:47,468 [INFO    ] Testing LINEAR search with RE-READ on 10,000 records
+2025-04-13 11:36:48,588 [INFO    ] Testing BINARY search with MEMORY on 10,000 records
+2025-04-13 11:36:49,849 [INFO    ] Testing BINARY search with RE-READ on 10,000 records
+2025-04-13 11:36:51,564 [INFO    ] Testing LINEAR search with MEMORY on 50,000 records
+2025-04-13 11:36:53,390 [INFO    ] Testing LINEAR search with RE-READ on 50,000 records
+2025-04-13 11:36:54,399 [INFO    ] Testing BINARY search with MEMORY on 50,000 records
+2025-04-13 11:36:55,123 [INFO    ] Testing BINARY search with RE-READ on 50,000 records
+2025-04-13 11:36:56,058 [INFO    ] Testing LINEAR search with MEMORY on 100,000 records
+2025-04-13 11:36:56,392 [INFO    ] Testing LINEAR search with RE-READ on 100,000 records
+2025-04-13 11:36:58,140 [INFO    ] Testing BINARY search with MEMORY on 100,000 records
+2025-04-13 11:36:58,820 [INFO    ] Testing BINARY search with RE-READ on 100,000 records
+2025-04-13 11:37:01,329 [INFO    ] Testing LINEAR search with MEMORY on 200,000 records
+2025-04-13 11:37:02,117 [INFO    ] Testing LINEAR search with RE-READ on 200,000 records
+2025-04-13 11:37:03,297 [INFO    ] Testing BINARY search with MEMORY on 200,000 records
+2025-04-13 11:37:03,629 [INFO    ] Testing BINARY search with RE-READ on 200,000 records
+2025-04-13 11:37:06,695 [INFO    ] Validating performance...
+2025-04-13 11:37:07,313 [INFO    ] PASS: LINEAR search (REREAD_OFF) - Average: 1.91ms <= 100ms, 99th Percentile: 16.96ms <= 150ms, 99.9th Percentile: 40.12ms <= 200ms
+2025-04-13 11:37:07,318 [INFO    ] PASS: LINEAR search (REREAD_ON) - Average: 2.88ms <= 500ms, 99th Percentile: 35.51ms <= 750ms, 99.9th Percentile: 96.46ms <= 1000ms
+2025-04-13 11:37:07,322 [INFO    ] PASS: BINARY search (REREAD_OFF) - Average: 0.78ms <= 15ms, 99th Percentile: 5.68ms <= 50ms, 99.9th Percentile: 7.85ms <= 70ms
+2025-04-13 11:37:07,330 [INFO    ] PASS: BINARY search (REREAD_ON) - Average: 2.59ms <= 50ms, 99th Percentile: 16.53ms <= 100ms, 99.9th Percentile: 24.87ms <= 150ms
+2025-04-13 11:37:07,340 [INFO    ] Creating visualizations...
+2025-04-13 11:37:31,188 [INFO    ] Generated comprehensive performance plots
+2025-04-13 11:37:31,190 [INFO    ] Generating final report...
+2025-04-13 11:37:31,258 [ERROR   ] Failed to generate PDF report: 'charmap' codec can't decode byte 0x90 in position 32: character maps to <undefined>
+2025-04-13 11:37:31,265 [INFO    ] Benchmark completed in 44.38 seconds. Final status: PASS
+2025-04-13 11:47:42,574 [INFO    ] Starting TCP Search Server Benchmark
+2025-04-13 11:47:42,600 [INFO    ] Generating test files...
+2025-04-13 11:47:42,601 [INFO    ] Running benchmark suite...
+2025-04-13 11:47:42,602 [INFO    ] Testing LINEAR search with MEMORY on 10,000 records
+2025-04-13 11:47:44,220 [INFO    ] Testing LINEAR search with RE-READ on 10,000 records
+2025-04-13 11:47:46,426 [INFO    ] Testing BINARY search with MEMORY on 10,000 records
+2025-04-13 11:47:46,699 [INFO    ] Testing BINARY search with RE-READ on 10,000 records
+2025-04-13 11:47:49,076 [INFO    ] Testing LINEAR search with MEMORY on 50,000 records
+2025-04-13 11:47:49,382 [INFO    ] Testing LINEAR search with RE-READ on 50,000 records
+2025-04-13 11:47:50,235 [INFO    ] Testing BINARY search with MEMORY on 50,000 records
+2025-04-13 11:47:50,422 [INFO    ] Testing BINARY search with RE-READ on 50,000 records
+2025-04-13 11:47:51,349 [INFO    ] Testing LINEAR search with MEMORY on 100,000 records
+2025-04-13 11:47:51,558 [INFO    ] Testing LINEAR search with RE-READ on 100,000 records
+2025-04-13 11:47:52,526 [INFO    ] Testing BINARY search with MEMORY on 100,000 records
+2025-04-13 11:47:52,770 [INFO    ] Testing BINARY search with RE-READ on 100,000 records
+2025-04-13 11:47:53,769 [INFO    ] Testing LINEAR search with MEMORY on 200,000 records
+2025-04-13 11:47:54,186 [INFO    ] Testing LINEAR search with RE-READ on 200,000 records
+2025-04-13 11:47:56,040 [INFO    ] Testing BINARY search with MEMORY on 200,000 records
+2025-04-13 11:47:56,249 [INFO    ] Testing BINARY search with RE-READ on 200,000 records
+2025-04-13 11:47:57,297 [INFO    ] Validating performance...
+2025-04-13 11:47:57,395 [INFO    ] PASS: LINEAR search (REREAD_OFF) - Average: 1.00ms <= 100ms, 99th Percentile: 8.63ms <= 150ms, 99.9th Percentile: 39.17ms <= 200ms
+2025-04-13 11:47:57,397 [INFO    ] PASS: LINEAR search (REREAD_ON) - Average: 4.54ms <= 500ms, 99th Percentile: 59.20ms <= 750ms, 99.9th Percentile: 164.79ms <= 1000ms
+2025-04-13 11:47:57,399 [INFO    ] PASS: BINARY search (REREAD_OFF) - Average: 0.49ms <= 15ms, 99th Percentile: 2.87ms <= 50ms, 99.9th Percentile: 4.77ms <= 70ms
+2025-04-13 11:47:57,400 [INFO    ] PASS: BINARY search (REREAD_ON) - Average: 2.29ms <= 50ms, 99th Percentile: 19.51ms <= 100ms, 99.9th Percentile: 63.19ms <= 150ms
+2025-04-13 11:47:57,401 [INFO    ] Creating visualizations...
+2025-04-13 11:48:02,652 [INFO    ] Generated comprehensive performance plots
+2025-04-13 11:48:02,653 [INFO    ] Generating final report...
+2025-04-13 11:48:02,682 [ERROR   ] Failed to generate PDF report: 'charmap' codec can't decode byte 0x90 in position 32: character maps to <undefined>
+2025-04-13 11:48:02,684 [INFO    ] Benchmark completed in 20.08 seconds. Final status: PASS
+2025-04-13 11:49:04,560 [INFO    ] Starting TCP Search Server Benchmark
+2025-04-13 11:49:04,561 [INFO    ] Generating test files...
+2025-04-13 11:49:04,561 [INFO    ] Running benchmark suite...
+2025-04-13 11:49:04,563 [INFO    ] Testing LINEAR search with MEMORY on 10,000 records
+2025-04-13 11:49:05,101 [INFO    ] Testing LINEAR search with RE-READ on 10,000 records
+2025-04-13 11:49:05,744 [INFO    ] Testing BINARY search with MEMORY on 10,000 records
+2025-04-13 11:49:06,001 [INFO    ] Testing BINARY search with RE-READ on 10,000 records
+2025-04-13 11:49:07,470 [INFO    ] Testing LINEAR search with MEMORY on 50,000 records
+2025-04-13 11:49:07,734 [INFO    ] Testing LINEAR search with RE-READ on 50,000 records
+2025-04-13 11:49:08,512 [INFO    ] Testing BINARY search with MEMORY on 50,000 records
+2025-04-13 11:49:08,831 [INFO    ] Testing BINARY search with RE-READ on 50,000 records
+2025-04-13 11:49:09,871 [INFO    ] Testing LINEAR search with MEMORY on 100,000 records
+2025-04-13 11:49:10,164 [INFO    ] Testing LINEAR search with RE-READ on 100,000 records
+2025-04-13 11:49:11,568 [INFO    ] Testing BINARY search with MEMORY on 100,000 records
+2025-04-13 11:49:11,929 [INFO    ] Testing BINARY search with RE-READ on 100,000 records
+2025-04-13 11:49:13,441 [INFO    ] Testing LINEAR search with MEMORY on 200,000 records
+2025-04-13 11:49:13,912 [INFO    ] Testing LINEAR search with RE-READ on 200,000 records
+2025-04-13 11:49:15,165 [INFO    ] Testing BINARY search with MEMORY on 200,000 records
+2025-04-13 11:49:15,854 [INFO    ] Testing BINARY search with RE-READ on 200,000 records
+2025-04-13 11:49:17,064 [INFO    ] Validating performance...
+2025-04-13 11:49:17,072 [INFO    ] PASS: LINEAR search (REREAD_OFF) - Average: 1.13ms <= 100ms, 99th Percentile: 9.94ms <= 150ms, 99.9th Percentile: 19.70ms <= 200ms
+2025-04-13 11:49:17,075 [INFO    ] PASS: LINEAR search (REREAD_ON) - Average: 3.09ms <= 500ms, 99th Percentile: 46.01ms <= 750ms, 99.9th Percentile: 86.35ms <= 1000ms
+2025-04-13 11:49:17,078 [INFO    ] PASS: BINARY search (REREAD_OFF) - Average: 1.68ms <= 15ms, 99th Percentile: 21.17ms <= 50ms, 99.9th Percentile: 29.42ms <= 70ms
+2025-04-13 11:49:17,081 [INFO    ] PASS: BINARY search (REREAD_ON) - Average: 2.90ms <= 50ms, 99th Percentile: 39.51ms <= 100ms, 99.9th Percentile: 119.46ms <= 150ms
+2025-04-13 11:49:17,082 [INFO    ] Creating visualizations...
+2025-04-13 11:49:19,948 [INFO    ] Generated comprehensive performance plots
+2025-04-13 11:49:19,949 [INFO    ] Generating final report...
+2025-04-13 11:49:19,950 [ERROR   ] Failed to generate PDF report: 'charmap' codec can't decode byte 0x90 in position 32: character maps to <undefined>
+2025-04-13 11:49:19,950 [INFO    ] Benchmark completed in 15.39 seconds. Final status: PASS
+2025-04-13 11:57:16,213 [INFO    ] Starting TCP Search Server Benchmark
+2025-04-13 11:57:16,214 [INFO    ] Generating test files...
+2025-04-13 11:57:16,215 [INFO    ] Running benchmark suite...
+2025-04-13 11:57:16,215 [INFO    ] Testing LINEAR search with MEMORY on 10,000 records
+2025-04-13 11:57:16,576 [INFO    ] Testing LINEAR search with RE-READ on 10,000 records
+2025-04-13 11:57:17,822 [INFO    ] Testing BINARY search with MEMORY on 10,000 records
+2025-04-13 11:57:18,154 [INFO    ] Testing BINARY search with RE-READ on 10,000 records
+2025-04-13 11:57:19,331 [INFO    ] Testing LINEAR search with MEMORY on 50,000 records
+2025-04-13 11:57:19,627 [INFO    ] Testing LINEAR search with RE-READ on 50,000 records
+2025-04-13 11:57:20,450 [INFO    ] Testing BINARY search with MEMORY on 50,000 records
+2025-04-13 11:57:20,749 [INFO    ] Testing BINARY search with RE-READ on 50,000 records
+2025-04-13 11:57:21,936 [INFO    ] Testing LINEAR search with MEMORY on 100,000 records
+2025-04-13 11:57:22,307 [INFO    ] Testing LINEAR search with RE-READ on 100,000 records
+2025-04-13 11:57:23,145 [INFO    ] Testing BINARY search with MEMORY on 100,000 records
+2025-04-13 11:57:23,814 [INFO    ] Testing BINARY search with RE-READ on 100,000 records
+2025-04-13 11:57:24,685 [INFO    ] Testing LINEAR search with MEMORY on 200,000 records
+2025-04-13 11:57:24,999 [INFO    ] Testing LINEAR search with RE-READ on 200,000 records
+2025-04-13 11:57:26,593 [INFO    ] Testing BINARY search with MEMORY on 200,000 records
+2025-04-13 11:57:26,968 [INFO    ] Testing BINARY search with RE-READ on 200,000 records
+2025-04-13 11:57:27,924 [INFO    ] Validating performance...
+2025-04-13 11:57:27,936 [INFO    ] PASS: LINEAR search (REREAD_OFF) - Average: 0.74ms <= 100ms, 99th Percentile: 6.69ms <= 150ms, 99.9th Percentile: 7.47ms <= 200ms
+2025-04-13 11:57:27,940 [INFO    ] PASS: LINEAR search (REREAD_ON) - Average: 3.89ms <= 500ms, 99th Percentile: 50.43ms <= 750ms, 99.9th Percentile: 72.41ms <= 1000ms
+2025-04-13 11:57:27,946 [INFO    ] PASS: BINARY search (REREAD_OFF) - Average: 0.88ms <= 15ms, 99th Percentile: 4.78ms <= 50ms, 99.9th Percentile: 7.97ms <= 70ms
+2025-04-13 11:57:27,953 [INFO    ] PASS: BINARY search (REREAD_ON) - Average: 2.30ms <= 50ms, 99th Percentile: 7.13ms <= 100ms, 99.9th Percentile: 8.08ms <= 150ms
+2025-04-13 11:57:27,954 [INFO    ] Creating visualizations...
+2025-04-13 11:57:30,563 [INFO    ] Generated comprehensive performance plots
+2025-04-13 11:57:30,565 [INFO    ] Generating final report...
+2025-04-13 11:57:30,566 [ERROR   ] Failed to generate PDF report: 'UnicodePDF' object has no attribute 'set_doc_option'
+2025-04-13 11:57:30,569 [INFO    ] Benchmark completed in 14.35 seconds. Final status: PASS
+2025-04-13 11:59:39,083 [INFO    ] Starting TCP Search Server Benchmark
+2025-04-13 11:59:39,084 [INFO    ] Generating test files...
+2025-04-13 11:59:39,085 [INFO    ] Running benchmark suite...
+2025-04-13 11:59:39,086 [INFO    ] Testing LINEAR search with MEMORY on 10,000 records
+2025-04-13 11:59:39,563 [INFO    ] Testing LINEAR search with RE-READ on 10,000 records
+2025-04-13 11:59:40,383 [INFO    ] Testing BINARY search with MEMORY on 10,000 records
+2025-04-13 11:59:40,727 [INFO    ] Testing BINARY search with RE-READ on 10,000 records
+2025-04-13 11:59:41,968 [INFO    ] Testing LINEAR search with MEMORY on 50,000 records
+2025-04-13 11:59:42,318 [INFO    ] Testing LINEAR search with RE-READ on 50,000 records
+2025-04-13 11:59:43,083 [INFO    ] Testing BINARY search with MEMORY on 50,000 records
+2025-04-13 11:59:43,904 [INFO    ] Testing BINARY search with RE-READ on 50,000 records
+2025-04-13 11:59:44,907 [INFO    ] Testing LINEAR search with MEMORY on 100,000 records
+2025-04-13 11:59:45,309 [INFO    ] Testing LINEAR search with RE-READ on 100,000 records
+2025-04-13 11:59:46,501 [INFO    ] Testing BINARY search with MEMORY on 100,000 records
+2025-04-13 11:59:46,814 [INFO    ] Testing BINARY search with RE-READ on 100,000 records
+2025-04-13 11:59:47,629 [INFO    ] Testing LINEAR search with MEMORY on 200,000 records
+2025-04-13 11:59:47,963 [INFO    ] Testing LINEAR search with RE-READ on 200,000 records
+2025-04-13 11:59:49,103 [INFO    ] Testing BINARY search with MEMORY on 200,000 records
+2025-04-13 11:59:49,437 [INFO    ] Testing BINARY search with RE-READ on 200,000 records
+2025-04-13 11:59:50,542 [INFO    ] Validating performance...
+2025-04-13 11:59:50,551 [INFO    ] PASS: LINEAR search (REREAD_OFF) - Average: 0.79ms <= 100ms, 99th Percentile: 3.11ms <= 150ms, 99.9th Percentile: 5.51ms <= 200ms
+2025-04-13 11:59:50,561 [INFO    ] PASS: LINEAR search (REREAD_ON) - Average: 2.79ms <= 500ms, 99th Percentile: 43.32ms <= 750ms, 99.9th Percentile: 76.82ms <= 1000ms
+2025-04-13 11:59:50,573 [INFO    ] PASS: BINARY search (REREAD_OFF) - Average: 0.80ms <= 15ms, 99th Percentile: 3.35ms <= 50ms, 99.9th Percentile: 3.63ms <= 70ms
+2025-04-13 11:59:50,581 [INFO    ] PASS: BINARY search (REREAD_ON) - Average: 2.55ms <= 50ms, 99th Percentile: 37.00ms <= 100ms, 99.9th Percentile: 56.39ms <= 150ms
+2025-04-13 11:59:50,582 [INFO    ] Creating visualizations...
+2025-04-13 11:59:53,165 [INFO    ] Generated comprehensive performance plots
+2025-04-13 11:59:53,171 [INFO    ] Generating final report...
+2025-04-13 11:59:53,174 [ERROR   ] Failed to generate PDF report: FPDF.cell() got an unexpected keyword argument 'new_x'
+2025-04-13 11:59:53,175 [INFO    ] Benchmark completed in 14.09 seconds. Final status: PASS
+2025-04-13 12:03:46,250 [INFO    ] Starting TCP Search Server Benchmark
+2025-04-13 12:03:46,251 [INFO    ] Generating test files...
+2025-04-13 12:03:46,252 [INFO    ] Running benchmark suite...
+2025-04-13 12:03:46,252 [INFO    ] Testing LINEAR search with MEMORY on 10,000 records
+2025-04-13 12:03:46,625 [INFO    ] Testing LINEAR search with RE-READ on 10,000 records
+2025-04-13 12:03:47,763 [INFO    ] Testing BINARY search with MEMORY on 10,000 records
+2025-04-13 12:03:48,071 [INFO    ] Testing BINARY search with RE-READ on 10,000 records
+2025-04-13 12:03:48,851 [INFO    ] Testing LINEAR search with MEMORY on 50,000 records
+2025-04-13 12:03:49,657 [INFO    ] Testing LINEAR search with RE-READ on 50,000 records
+2025-04-13 12:03:50,409 [INFO    ] Testing BINARY search with MEMORY on 50,000 records
+2025-04-13 12:03:50,705 [INFO    ] Testing BINARY search with RE-READ on 50,000 records
+2025-04-13 12:03:51,480 [INFO    ] Testing LINEAR search with MEMORY on 100,000 records
+2025-04-13 12:03:52,246 [INFO    ] Testing LINEAR search with RE-READ on 100,000 records
+2025-04-13 12:03:53,000 [INFO    ] Testing BINARY search with MEMORY on 100,000 records
+2025-04-13 12:03:53,312 [INFO    ] Testing BINARY search with RE-READ on 100,000 records
+2025-04-13 12:03:54,585 [INFO    ] Testing LINEAR search with MEMORY on 200,000 records
+2025-04-13 12:03:54,915 [INFO    ] Testing LINEAR search with RE-READ on 200,000 records
+2025-04-13 12:03:55,667 [INFO    ] Testing BINARY search with MEMORY on 200,000 records
+2025-04-13 12:03:55,949 [INFO    ] Testing BINARY search with RE-READ on 200,000 records
+2025-04-13 12:03:57,153 [INFO    ] Validating performance...
+2025-04-13 12:03:57,165 [INFO    ] PASS: LINEAR search (REREAD_OFF) - Average: 0.78ms <= 100ms, 99th Percentile: 3.66ms <= 150ms, 99.9th Percentile: 4.58ms <= 200ms
+2025-04-13 12:03:57,170 [INFO    ] PASS: LINEAR search (REREAD_ON) - Average: 1.83ms <= 500ms, 99th Percentile: 5.38ms <= 750ms, 99.9th Percentile: 6.02ms <= 1000ms
+2025-04-13 12:03:57,182 [INFO    ] PASS: BINARY search (REREAD_OFF) - Average: 0.67ms <= 15ms, 99th Percentile: 2.82ms <= 50ms, 99.9th Percentile: 3.78ms <= 70ms
+2025-04-13 12:03:57,186 [INFO    ] PASS: BINARY search (REREAD_ON) - Average: 2.87ms <= 50ms, 99th Percentile: 45.93ms <= 100ms, 99.9th Percentile: 73.43ms <= 150ms
+2025-04-13 12:03:57,187 [INFO    ] Creating visualizations...
+2025-04-13 12:04:00,059 [INFO    ] Generated comprehensive performance plots
+2025-04-13 12:04:00,060 [INFO    ] Generating final report...
+2025-04-13 12:04:00,060 [ERROR   ] Failed to generate PDF report: FPDF.cell() got an unexpected keyword argument 'new_x'
+2025-04-13 12:04:00,061 [INFO    ] Benchmark completed in 13.81 seconds. Final status: PASS
+2025-04-13 12:04:24,107 [INFO    ] Starting TCP Search Server Benchmark
+2025-04-13 12:04:24,108 [INFO    ] Generating test files...
+2025-04-13 12:04:24,109 [INFO    ] Running benchmark suite...
+2025-04-13 12:04:24,110 [INFO    ] Testing LINEAR search with MEMORY on 10,000 records
+2025-04-13 12:04:24,816 [INFO    ] Testing LINEAR search with RE-READ on 10,000 records
+2025-04-13 12:04:25,579 [INFO    ] Testing BINARY search with MEMORY on 10,000 records
+2025-04-13 12:04:25,885 [INFO    ] Testing BINARY search with RE-READ on 10,000 records
+2025-04-13 12:04:27,019 [INFO    ] Testing LINEAR search with MEMORY on 50,000 records
+2025-04-13 12:04:27,381 [INFO    ] Testing LINEAR search with RE-READ on 50,000 records
+2025-04-13 12:04:28,146 [INFO    ] Testing BINARY search with MEMORY on 50,000 records
+2025-04-13 12:04:28,466 [INFO    ] Testing BINARY search with RE-READ on 50,000 records
+2025-04-13 12:04:29,612 [INFO    ] Testing LINEAR search with MEMORY on 100,000 records
+2025-04-13 12:04:29,918 [INFO    ] Testing LINEAR search with RE-READ on 100,000 records
+2025-04-13 12:04:30,668 [INFO    ] Testing BINARY search with MEMORY on 100,000 records
+2025-04-13 12:04:30,966 [INFO    ] Testing BINARY search with RE-READ on 100,000 records
+2025-04-13 12:04:32,110 [INFO    ] Testing LINEAR search with MEMORY on 200,000 records
+2025-04-13 12:04:32,470 [INFO    ] Testing LINEAR search with RE-READ on 200,000 records
+2025-04-13 12:04:33,240 [INFO    ] Testing BINARY search with MEMORY on 200,000 records
+2025-04-13 12:04:33,560 [INFO    ] Testing BINARY search with RE-READ on 200,000 records
+2025-04-13 12:04:34,751 [INFO    ] Validating performance...
+2025-04-13 12:04:34,761 [INFO    ] PASS: LINEAR search (REREAD_OFF) - Average: 0.85ms <= 100ms, 99th Percentile: 4.41ms <= 150ms, 99.9th Percentile: 6.48ms <= 200ms
+2025-04-13 12:04:34,768 [INFO    ] PASS: LINEAR search (REREAD_ON) - Average: 1.88ms <= 500ms, 99th Percentile: 6.20ms <= 750ms, 99.9th Percentile: 7.13ms <= 1000ms
+2025-04-13 12:04:34,770 [INFO    ] PASS: BINARY search (REREAD_OFF) - Average: 0.75ms <= 15ms, 99th Percentile: 3.35ms <= 50ms, 99.9th Percentile: 6.13ms <= 70ms
+2025-04-13 12:04:34,775 [INFO    ] PASS: BINARY search (REREAD_ON) - Average: 2.87ms <= 50ms, 99th Percentile: 37.24ms <= 100ms, 99.9th Percentile: 57.25ms <= 150ms
+2025-04-13 12:04:34,775 [INFO    ] Creating visualizations...
+2025-04-13 12:04:37,339 [INFO    ] Generated comprehensive performance plots
+2025-04-13 12:04:37,343 [INFO    ] Generating final report...
+2025-04-13 12:04:52,011 [INFO    ] Generated comprehensive PDF report: benchmarks/benchmark_report.pdf
+2025-04-13 12:04:52,012 [INFO    ] Benchmark completed in 27.90 seconds. Final status: PASS
+2025-04-13 12:32:07,508 [INFO    ] Starting TCP Search Server Benchmark
+2025-04-13 12:32:07,510 [INFO    ] Generating test files...
+2025-04-13 12:32:07,512 [INFO    ] Running benchmark suite...
+2025-04-13 12:32:07,513 [INFO    ] Testing LINEAR search with MEMORY on10,000 records
+2025-04-13 12:32:09,429 [INFO    ] Testing LINEAR search with RE-READ on10,000 records
+2025-04-13 12:32:11,388 [INFO    ] Testing BINARY search with MEMORY on10,000 records
+2025-04-13 12:32:13,663 [INFO    ] Testing BINARY search with RE-READ on10,000 records
+2025-04-13 12:32:15,730 [INFO    ] Testing LINEAR search with MEMORY on50,000 records
+2025-04-13 12:32:16,248 [INFO    ] Testing LINEAR search with RE-READ on50,000 records
+2025-04-13 12:32:17,316 [INFO    ] Testing BINARY search with MEMORY on50,000 records
+2025-04-13 12:32:18,156 [INFO    ] Testing BINARY search with RE-READ on50,000 records
+2025-04-13 12:32:19,149 [INFO    ] Testing LINEAR search with MEMORY on100,000 records
+2025-04-13 12:32:19,542 [INFO    ] Testing LINEAR search with RE-READ on100,000 records
+2025-04-13 12:32:21,453 [INFO    ] Testing BINARY search with MEMORY on100,000 records
+2025-04-13 12:32:22,096 [INFO    ] Testing BINARY search with RE-READ on100,000 records
+2025-04-13 12:32:25,718 [INFO    ] Testing LINEAR search with MEMORY on200,000 records
+2025-04-13 12:32:26,262 [INFO    ] Testing LINEAR search with RE-READ on200,000 records
+2025-04-13 12:32:27,686 [INFO    ] Testing BINARY search with MEMORY on200,000 records
+2025-04-13 12:32:28,187 [INFO    ] Testing BINARY search with RE-READ on200,000 records
+2025-04-13 12:32:29,170 [INFO    ] Validating performance...
+2025-04-13 12:32:29,190 [INFO    ] PASS: LINEAR search (REREAD_OFF) - Average: 1.30ms <= 100ms, 99th Percentile: 14.39ms <= 150ms, 99.9th Percentile: 19.30ms <= 200ms
+2025-04-13 12:32:29,204 [INFO    ] PASS: LINEAR search (REREAD_ON) - Average: 3.50ms <= 500ms, 99th Percentile: 33.65ms <= 750ms, 99.9th Percentile: 82.67ms <= 1000ms
+2025-04-13 12:32:29,210 [INFO    ] PASS: BINARY search (REREAD_OFF) - Average: 1.03ms <= 15ms, 99th Percentile: 8.00ms <= 50ms, 99.9th Percentile: 15.46ms <= 70ms
+2025-04-13 12:32:29,217 [INFO    ] PASS: BINARY search (REREAD_ON) - Average: 2.31ms <= 50ms, 99th Percentile: 10.52ms <= 100ms, 99.9th Percentile: 14.43ms <= 150ms
+2025-04-13 12:32:29,222 [INFO    ] Creating visualizations...
+2025-04-13 12:32:31,944 [INFO    ] Generated comprehensive performance plots
+2025-04-13 12:32:31,945 [INFO    ] Generating final report...
+2025-04-13 12:32:48,877 [INFO    ] Generated comprehensive PDF report: benchmarks/benchmark_report.pdf
+2025-04-13 12:32:48,878 [INFO    ] Benchmark completed in 41.37seconds. Final status: PASS
+2025-04-13 12:35:11,881 [INFO    ] Starting TCP Search Server Benchmark
+2025-04-13 12:35:11,883 [INFO    ] Generating test files...
+2025-04-13 12:35:11,884 [INFO    ] Running benchmark suite...
+2025-04-13 12:35:11,884 [INFO    ] Testing LINEAR search with MEMORY on10,000 records
+2025-04-13 12:35:12,446 [INFO    ] Testing LINEAR search with RE-READ on10,000 records
+2025-04-13 12:35:13,324 [INFO    ] Testing BINARY search with MEMORY on10,000 records
+2025-04-13 12:35:13,668 [INFO    ] Testing BINARY search with RE-READ on10,000 records
+2025-04-13 12:35:14,907 [INFO    ] Testing LINEAR search with MEMORY on50,000 records
+2025-04-13 12:35:15,270 [INFO    ] Testing LINEAR search with RE-READ on50,000 records
+2025-04-13 12:35:16,105 [INFO    ] Testing BINARY search with MEMORY on50,000 records
+2025-04-13 12:35:16,408 [INFO    ] Testing BINARY search with RE-READ on50,000 records
+2025-04-13 12:35:17,756 [INFO    ] Testing LINEAR search with MEMORY on100,000 records
+2025-04-13 12:35:18,268 [INFO    ] Testing LINEAR search with RE-READ on100,000 records
+2025-04-13 12:35:19,137 [INFO    ] Testing BINARY search with MEMORY on100,000 records
+2025-04-13 12:35:19,874 [INFO    ] Testing BINARY search with RE-READ on100,000 records
+2025-04-13 12:35:20,752 [INFO    ] Testing LINEAR search with MEMORY on200,000 records
+2025-04-13 12:35:21,106 [INFO    ] Testing LINEAR search with RE-READ on200,000 records
+2025-04-13 12:35:21,921 [INFO    ] Testing BINARY search with MEMORY on200,000 records
+2025-04-13 12:35:22,696 [INFO    ] Testing BINARY search with RE-READ on200,000 records
+2025-04-13 12:35:24,093 [INFO    ] Validating performance...
+2025-04-13 12:35:24,104 [INFO    ] PASS: LINEAR search (REREAD_OFF) - Average: 0.85ms <= 100ms, 99th Percentile: 6.79ms <= 150ms, 99.9th Percentile: 13.66ms <= 200ms
+2025-04-13 12:35:24,107 [INFO    ] PASS: LINEAR search (REREAD_ON) - Average: 1.97ms <= 500ms, 99th Percentile: 8.71ms <= 750ms, 99.9th Percentile: 12.80ms <= 1000ms
+2025-04-13 12:35:24,111 [INFO    ] PASS: BINARY search (REREAD_OFF) - Average: 1.88ms <= 15ms, 99th Percentile: 36.82ms <= 50ms, 99.9th Percentile: 42.15ms <= 70ms
+2025-04-13 12:35:24,124 [INFO    ] PASS: BINARY search (REREAD_ON) - Average: 3.33ms <= 50ms, 99th Percentile: 18.80ms <= 100ms, 99.9th Percentile: 38.67ms <= 150ms
+2025-04-13 12:35:24,125 [INFO    ] Creating visualizations...
+2025-04-13 12:35:27,166 [INFO    ] Generated comprehensive performance plots
+2025-04-13 12:35:27,166 [INFO    ] Generating final report...
+2025-04-13 12:35:55,162 [INFO    ] Generated comprehensive PDF report: benchmarks/benchmark_report.pdf
+2025-04-13 12:35:55,163 [INFO    ] Benchmark completed in 43.28seconds. Final status: PASS

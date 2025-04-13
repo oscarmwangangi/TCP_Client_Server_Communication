@@ -1,0 +1,6 @@
+{
+  "tests/test_server.py::test_signal_handling": true,
+  "tests/test_server.py::test_search_with_file_modification": true,
+  "tests/test_server.py::test_missing_config_file": true,
+  "tests/test_server.py::test_ssl_actual_handshake": true
+}

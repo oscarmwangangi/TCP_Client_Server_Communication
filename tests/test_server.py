@@ -1,0 +1,230 @@
+import os
+import socket
+import ssl  # noqa: F401 (kept for potential future use)
+import sys
+import threading
+import configparser
+import logging
+from unittest.mock import patch, MagicMock, mock_open
+import pytest
+import datetime
+from cryptography import x509
+from cryptography.x509.oid import NameOID
+from cryptography.hazmat.primitives import hashes, serialization
+from cryptography.hazmat.primitives.asymmetric import rsa
+from cryptography.hazmat.backends import default_backend
+
+
+# Add parent directory to path
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+# Mock configuration
+pytestmark = pytest.mark.timeout(5)  # Global timeout for all tests
+mock_config = configparser.ConfigParser()
+mock_config.read_dict({
+    "SERVER": {
+        "port": "5555",
+        "reread_on_query": "False",
+        "ssl_enabled": "False",
+        "max_allowed_time_ms": "1000"
+    },
+    "SSL": {
+        "certfile": "",
+        "keyfile": ""
+    },
+    "PATHS": {
+        "linuxpath": "test_data.txt"
+    }
+})
+
+
+# Patch config before imports
+with patch("configparser.ConfigParser") as mock_config_class:
+    mock_config_class.return_value = mock_config
+    from server import TCPServer  # noqa: F401
+
+
+# Test Data
+TEST_DATA = """7;0;6;28;0;23;5;0;
+10;0;1;26;0;8;3;0;
+1;2;3;
+"""
+
+
+@pytest.fixture
+def temp_cert_key(tmp_path):
+    """Generate temporary SSL certificate and key for testing."""
+    # Generate private key
+    key = rsa.generate_private_key(
+        public_exponent=65537,
+        key_size=2048,
+        backend=default_backend()
+    )
+    key_path = tmp_path / "key.pem"
+    with open(key_path, "wb") as f:
+        f.write(key.private_bytes(
+            encoding=serialization.Encoding.PEM,
+            format=serialization.PrivateFormat.TraditionalOpenSSL,
+            encryption_algorithm=serialization.NoEncryption(),
+        ))
+
+    # Generate self-signed certificate
+    subject = issuer = x509.Name([
+        x509.NameAttribute(NameOID.COMMON_NAME, u"localhost"),
+    ])
+    cert = (
+        x509.CertificateBuilder()
+        .subject_name(subject)
+        .issuer_name(issuer)
+        .public_key(key.public_key())
+        .serial_number(x509.random_serial_number())
+        .not_valid_before(datetime.datetime.utcnow())
+        .not_valid_after(
+            datetime.datetime.utcnow() + datetime.timedelta(days=1)
+        )
+        .add_extension(
+            x509.SubjectAlternativeName([x509.DNSName(u"localhost")]),
+            critical=False,
+        )
+        .sign(key, hashes.SHA256(), default_backend())
+    )
+    cert_path = tmp_path / "cert.pem"
+    with open(cert_path, "wb") as f:
+        f.write(cert.public_bytes(serialization.Encoding.PEM))
+
+    return str(cert_path), str(key_path)
+
+
+@pytest.fixture
+def test_server():
+    """Fixture providing a test server instance."""
+    with patch("builtins.open", mock_open(read_data=TEST_DATA)):
+        server = TCPServer()
+        server.shutdown_flag = False  # Explicitly set to False
+        yield server
+        dummy_sock = MagicMock()
+        server.cleanup(dummy_sock)
+
+
+def test_handle_client_normal_query(test_server, caplog):
+    """Test handling of a normal client query."""
+    caplog.set_level(logging.INFO)
+    mock_conn = MagicMock()
+    mock_conn.recv.side_effect = [b"7;0;6;28;0;23;5;0;\x00", b""]
+    test_server.handle_client(mock_conn, ("127.0.0.1", 12345))
+    mock_conn.sendall.assert_called_once_with(b"STRING EXISTS\n")
+    logs = caplog.text
+    assert "127.0.0.1" in logs
+    assert "7;0;6;28;0;23;5;0;" in logs
+    assert "FOUND" in logs
+
+
+def test_handle_client_not_found(test_server, caplog):
+    """Test handling of a not found query."""
+    caplog.set_level(logging.INFO)
+    mock_conn = MagicMock()
+    mock_conn.recv.side_effect = [b"nonexistent_string\x00", b""]
+    test_server.handle_client(mock_conn, ("127.0.0.1", 12345))
+    mock_conn.sendall.assert_called_once_with(b"STRING NOT FOUND\n")
+    assert "Result=NOT FOUND" in caplog.text
+
+
+@pytest.mark.timeout(2)
+def test_client_timeout_handling(test_server):
+    """Test handling of client timeout."""
+    mock_conn = MagicMock()
+    mock_conn.recv.side_effect = [socket.timeout(), socket.timeout(), b""]
+    test_server.handle_client(mock_conn, ("127.0.0.1", 12345))
+    assert mock_conn.recv.call_count == 3
+    assert mock_conn.close.call_count == 1
+    assert not mock_conn.sendall.called
+
+
+def test_client_disconnect_during_query(test_server):
+    """Test handling of client disconnection."""
+    mock_conn = MagicMock()
+    mock_conn.recv.side_effect = ConnectionResetError()
+    test_server.handle_client(mock_conn, ("127.0.0.1", 12345))
+    mock_conn.close.assert_called_once()
+
+
+def test_multiple_packets_received(test_server):
+    """Test handling of multiple packet reception."""
+    mock_conn = MagicMock()
+    mock_conn.recv.side_effect = [b"7;0;6;28", b";0;23;5;0;\x00", b""]
+    test_server.handle_client(mock_conn, ("127.0.0.1", 12345))
+    mock_conn.sendall.assert_called_once_with(b"STRING EXISTS\n")
+
+
+def test_empty_query(test_server):
+    """Test handling of empty queries."""
+    mock_conn = MagicMock()
+    mock_conn.recv.side_effect = [b"\x00", b""]
+    test_server.handle_client(mock_conn, ("127.0.0.1", 12345))
+    mock_conn.sendall.assert_called_once_with(b"STRING NOT FOUND\n")
+
+
+@patch("ssl.create_default_context")
+def test_ssl_handshake_success(mock_ssl_context, test_server):
+    """Test successful SSL handshake."""
+    mock_ssl_socket = MagicMock()
+    mock_ssl_context.return_value.wrap_socket.return_value = mock_ssl_socket
+    test_server.ssl_enabled = True
+    threading.Thread(target=test_server.start, daemon=True).start()
+    sock = socket.create_connection(("127.0.0.1", 5555))
+    sock.close()
+
+
+def test_multiple_simultaneous_connections(test_server):
+    """Test handling of multiple simultaneous connections."""
+    mock_conn1 = MagicMock()
+    mock_conn2 = MagicMock()
+    mock_conn1.recv.side_effect = [b"query1\x00", b""]
+    mock_conn2.recv.side_effect = [b"query2\x00", b""]
+
+    thread1 = threading.Thread(
+        target=test_server.handle_client,
+        args=(mock_conn1, ("127.0.0.1", 12345))
+    )
+    thread2 = threading.Thread(
+        target=test_server.handle_client,
+        args=(mock_conn2, ("127.0.0.1", 12346)))
+
+    thread1.start()
+    thread2.start()
+    thread1.join()
+    thread2.join()
+
+    assert mock_conn1.sendall.called
+    assert mock_conn2.sendall.called
+
+
+def test_cleanup_with_active_connections(test_server):
+    """Test cleanup with active connections."""
+    mock_conn = MagicMock()
+    test_server.active_connections.add(mock_conn)
+    test_server.cleanup(MagicMock())
+    mock_conn.close.assert_called_once()
+
+
+def test_high_connection_load(test_server):
+    """Test server under concurrent load."""
+    def mock_client(query):
+        mock_conn = MagicMock()
+        mock_conn.recv.side_effect = [query.encode() + b"\x00", b""]
+        test_server.handle_client(mock_conn, ("127.0.0.1", 12345))
+        return mock_conn
+
+    threads = []
+    for i in range(100):
+        t = threading.Thread(target=mock_client, args=(f"query_{i}",))
+        threads.append(t)
+        t.start()
+    for t in threads:
+        t.join()
+
+    assert len(test_server.active_connections) == 0
+
+
+if __name__ == "__main__":
+    pytest.main(["-v", "--capture=no"])

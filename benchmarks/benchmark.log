@@ -1,0 +1,10 @@
+2025-04-13 12:25:33,903 [INFO    ] Starting TCP Search Server Benchmark
+2025-04-13 12:25:33,904 [ERROR   ] Environment setup failed: Base data file ../200k.txt not found
+2025-04-13 12:28:25,259 [INFO    ] Starting TCP Search Server Benchmark
+2025-04-13 12:28:25,260 [INFO    ] Generating test files...
+2025-04-13 12:28:25,261 [ERROR   ] Test file generation failed: [Errno 2] No such file or directory: '../200k.txt'
+2025-04-13 12:34:11,239 [INFO    ] Starting TCP Search Server Benchmark
+2025-04-13 12:34:11,240 [INFO    ] Generating test files...
+2025-04-13 12:34:11,241 [ERROR   ] Test file generation failed: [Errno 2] No such file or directory: '../200k.txt'
+2025-04-13 12:34:57,364 [INFO    ] Starting TCP Search Server Benchmark
+2025-04-13 12:34:57,365 [ERROR   ] Environment setup failed: Base data file ../200k.txt not found

@@ -1,0 +1,11 @@
+{
+  "test_server.py::test_empty_string_search": true,
+  "test_server.py::test_ssl_connection": true,
+  "test_server.py::test_invalid_utf8_query": true,
+  "test_server.py::test_ssl_handshake_success": true,
+  "test_server.py::test_signal_handling": true,
+  "test_server.py::test_missing_config_file": true,
+  "test_server.py::test_invalid_port_config": true,
+  "test_server.py::test_search_with_file_modification": true,
+  "test_server.py": true
+}

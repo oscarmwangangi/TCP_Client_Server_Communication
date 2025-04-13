@@ -1,0 +1,158 @@
+2025-04-08 17:14:59,760 [INFO] SSL is disabled
+2025-04-08 17:14:59,766 [INFO] Server listening on port 5555
+2025-04-08 17:16:06,832 [INFO] SSL is disabled
+2025-04-08 17:16:06,832 [INFO] Server listening on port 5555
+2025-04-08 17:16:19,988 [INFO] Server shutting down...
+2025-04-08 17:16:19,988 [INFO] Closing server socket...
+2025-04-08 17:16:19,988 [INFO] Server shutdown complete
+2025-04-08 17:16:47,235 [INFO] SSL is disabled
+2025-04-08 17:16:47,235 [INFO] Server listening on port 5555
+2025-04-08 17:21:18,693 [INFO] SSL is disabled
+2025-04-08 17:21:18,695 [INFO] Server listening on port 5555
+2025-04-08 17:23:25,491 [INFO] SSL is disabled
+2025-04-08 17:23:25,491 [INFO] Server listening on port 5555
+2025-04-08 17:27:28,186 [INFO] SSL disabled
+2025-04-08 17:27:28,186 [INFO] Server started on port 5555
+2025-04-08 17:27:40,288 [INFO] Received signal 2
+2025-04-08 17:27:40,288 [INFO] Shutting down server...
+2025-04-08 17:27:40,288 [INFO] Server shutdown complete
+2025-04-08 17:27:40,288 [INFO] Shutting down server...
+2025-04-08 17:27:40,288 [INFO] Server shutdown complete
+2025-04-08 17:28:07,186 [INFO] SSL disabled
+2025-04-08 17:28:07,188 [INFO] Server started on port 5555
+2025-04-08 17:29:44,897 [INFO] Connection from ('127.0.0.1', 46048)
+2025-04-08 17:29:48,037 [INFO] Query='hi' from 127.0.0.1 Result=NOT FOUND
+2025-04-08 17:29:48,038 [INFO] Closed connection from ('127.0.0.1', 46048)
+2025-04-08 17:41:07,071 [INFO] Connection from ('127.0.0.1', 40776)
+2025-04-08 17:41:12,552 [INFO] Query='banana' from 127.0.0.1 Result=FOUND
+2025-04-08 17:41:12,556 [INFO] Closed connection from ('127.0.0.1', 40776)
+2025-04-08 17:51:04,771 [INFO] Received signal 2
+2025-04-08 17:51:04,887 [INFO] Shutting down server...
+2025-04-08 17:51:04,889 [INFO] Server shutdown complete
+2025-04-08 17:51:04,892 [INFO] Shutting down server...
+2025-04-08 17:51:04,894 [INFO] Server shutdown complete
+2025-04-08 17:51:08,099 [INFO] SSL disabled
+2025-04-08 17:51:08,101 [INFO] Server started on port 5555
+2025-04-08 18:01:44,394 [INFO] Connection from ('127.0.0.1', 44428)
+2025-04-08 18:01:44,400 [INFO] Query='your_search_string' from 127.0.0.1 Result=NOT FOUND
+2025-04-08 18:01:44,401 [INFO] Closed connection from ('127.0.0.1', 44428)
+2025-04-08 18:01:55,944 [INFO] Connection from ('127.0.0.1', 55910)
+2025-04-08 18:01:55,951 [INFO] Query='banana' from 127.0.0.1 Result=FOUND
+2025-04-08 18:01:55,957 [INFO] Closed connection from ('127.0.0.1', 55910)
+2025-04-08 18:02:13,254 [INFO] Connection from ('127.0.0.1', 39246)
+2025-04-08 18:02:13,260 [INFO] Query='food' from 127.0.0.1 Result=NOT FOUND
+2025-04-08 18:02:13,261 [INFO] Closed connection from ('127.0.0.1', 39246)
+2025-04-08 18:24:19,002 [INFO] Received signal 2
+2025-04-08 18:24:19,471 [INFO] Shutting down server...
+2025-04-08 18:24:19,473 [INFO] Server shutdown complete
+2025-04-08 18:24:19,475 [INFO] Shutting down server...
+2025-04-08 18:24:19,477 [INFO] Server shutdown complete
+2025-04-08 18:24:21,093 [INFO] SSL disabled
+2025-04-08 18:24:21,094 [INFO] Server started on port 5555
+2025-04-08 18:24:27,336 [INFO] Connection from ('127.0.0.1', 58856)
+2025-04-08 18:24:27,344 [INFO] Query='food' from 127.0.0.1 Result=NOT FOUND
+2025-04-08 18:24:27,348 [INFO] Closed connection from ('127.0.0.1', 58856)
+2025-04-08 18:24:32,081 [INFO] Connection from ('127.0.0.1', 58864)
+2025-04-08 18:24:32,087 [INFO] Query='banana' from 127.0.0.1 Result=FOUND
+2025-04-08 18:24:32,092 [INFO] Closed connection from ('127.0.0.1', 58864)
+2025-04-08 18:24:36,384 [INFO] Connection from ('127.0.0.1', 50182)
+2025-04-08 18:24:36,390 [INFO] Query='your_search_string' from 127.0.0.1 Result=NOT FOUND
+2025-04-08 18:24:36,392 [INFO] Closed connection from ('127.0.0.1', 50182)
+2025-04-08 19:09:18,820 [INFO] Connection from ('127.0.0.1', 42594)
+2025-04-08 19:09:18,821 [INFO] Closed connection from ('127.0.0.1', 42594)
+2025-04-08 19:22:00,319 [INFO] Received signal 2
+2025-04-08 19:22:00,713 [INFO] Shutting down server...
+2025-04-08 19:22:00,714 [INFO] Server shutdown complete
+2025-04-08 19:22:00,715 [INFO] Shutting down server...
+2025-04-08 19:22:00,716 [INFO] Server shutdown complete
+2025-04-08 19:22:03,818 [INFO] SSL disabled
+2025-04-08 19:22:03,818 [INFO] Server started on port 5555
+2025-04-08 19:22:10,363 [INFO] Connection from ('127.0.0.1', 53964)
+2025-04-08 19:22:10,369 [INFO] Query='your_search_string' from 127.0.0.1 Result=NOT FOUND
+2025-04-08 19:22:10,370 [INFO] Closed connection from ('127.0.0.1', 53964)
+2025-04-08 19:32:19,096 [INFO] Connection from ('127.0.0.1', 39474)
+2025-04-08 19:32:19,312 [INFO] Query='20' from 127.0.0.1 Result=NOT FOUND
+2025-04-08 19:32:19,313 [INFO] Closed connection from ('127.0.0.1', 39474)
+2025-04-08 19:32:26,965 [INFO] Connection from ('127.0.0.1', 44250)
+2025-04-08 19:32:27,059 [INFO] Query='20;' from 127.0.0.1 Result=NOT FOUND
+2025-04-08 19:32:27,061 [INFO] Closed connection from ('127.0.0.1', 44250)
+2025-04-08 19:32:51,827 [INFO] Connection from ('127.0.0.1', 34758)
+2025-04-08 19:32:56,738 [INFO] Query='20' from 127.0.0.1 Result=NOT FOUND
+2025-04-08 19:32:56,742 [INFO] Closed connection from ('127.0.0.1', 34758)
+2025-04-08 19:33:05,342 [INFO] Connection from ('127.0.0.1', 55490)
+2025-04-08 19:33:05,406 [INFO] Query='20' from 127.0.0.1 Result=NOT FOUND
+2025-04-08 19:33:05,407 [INFO] Closed connection from ('127.0.0.1', 55490)
+2025-04-08 19:33:22,472 [INFO] Connection from ('127.0.0.1', 34914)
+2025-04-08 19:33:22,533 [INFO] Query='20' from 127.0.0.1 Result=NOT FOUND
+2025-04-08 19:33:22,534 [INFO] Closed connection from ('127.0.0.1', 34914)
+2025-04-08 19:34:58,308 [INFO] Connection from ('127.0.0.1', 48674)
+2025-04-08 19:34:58,377 [INFO] Query='20;0;6;28;0;5;5;0;' from 127.0.0.1 Result=FOUND
+2025-04-08 19:34:58,379 [INFO] Closed connection from ('127.0.0.1', 48674)
+2025-04-08 20:07:17,385 [INFO] Connection from ('127.0.0.1', 43498)
+2025-04-08 20:07:18,153 [INFO] Query='query' from 127.0.0.1 Result=NOT FOUND
+2025-04-08 20:07:18,159 [INFO] Closed connection from ('127.0.0.1', 43498)
+2025-04-08 22:06:38,764 [INFO] Server initialized
+2025-04-08 22:06:38,785 [CRITICAL] Server crashed: [Errno 98] Address already in use
+2025-04-08 22:06:38,786 [INFO] Shutting down server...
+2025-04-08 22:06:38,787 [INFO] Server shutdown complete
+2025-04-09 01:12:50,051 [INFO] SSL disabled
+2025-04-09 01:12:50,051 [INFO] Server started on port 5555
+2025-04-09 01:13:02,516 [INFO] Connection from ('127.0.0.1', 54681)
+2025-04-09 01:13:02,649 [INFO] Query='hi' from 127.0.0.1 Result=NOT FOUND
+2025-04-09 01:13:02,649 [INFO] Closed connection from ('127.0.0.1', 54681)
+2025-04-09 01:13:09,573 [INFO] Received signal 2
+2025-04-09 01:13:09,573 [INFO] Shutting down server...
+2025-04-09 01:13:09,573 [INFO] Server shutdown complete
+2025-04-09 01:13:09,573 [INFO] Shutting down server...
+2025-04-09 01:13:09,589 [INFO] Server shutdown complete
+2025-04-11 00:36:41,803 [INFO] SSL disabled
+2025-04-11 00:36:41,820 [INFO] Server started on port 5555
+2025-04-11 00:37:02,591 [INFO] Connection from ('127.0.0.1', 62634)
+2025-04-11 00:37:02,815 [INFO] Query='your_search_string' from 127.0.0.1 Result=NOT FOUND
+2025-04-11 00:37:02,815 [INFO] Closed connection from ('127.0.0.1', 62634)
+2025-04-11 00:39:48,836 [INFO] Received signal 2
+2025-04-11 00:39:48,836 [INFO] Shutting down server...
+2025-04-11 00:39:48,836 [INFO] Server shutdown complete
+2025-04-11 00:39:48,836 [INFO] Shutting down server...
+2025-04-11 00:39:48,852 [INFO] Server shutdown complete
+2025-04-11 00:39:58,216 [INFO] Server started on port 5555
+2025-04-11 00:40:02,674 [INFO] Connection from ('127.0.0.1', 62881)
+2025-04-11 00:40:02,744 [INFO] Query='your_search_string...' from 127.0.0.1 Result=NOT FOUND
+2025-04-11 00:40:02,746 [INFO] Closed connection from ('127.0.0.1', 62881)
+2025-04-11 00:40:10,742 [INFO] Received signal 2
+2025-04-11 00:40:10,742 [INFO] Shutting down server...
+2025-04-11 00:40:10,742 [INFO] Server shutdown complete
+2025-04-11 00:40:10,742 [INFO] Shutting down server...
+2025-04-11 00:40:10,742 [INFO] Server shutdown complete
+2025-04-11 18:25:55,997 [INFO] Server started on port 5555
+2025-04-11 18:26:31,381 [INFO] Connection from ('127.0.0.1', 56233)
+2025-04-11 18:26:31,685 [INFO] Query='hi...' from 127.0.0.1 Result=NOT FOUND
+2025-04-11 18:26:31,685 [INFO] Closed connection from ('127.0.0.1', 56233)
+2025-04-11 18:27:01,629 [INFO] Connection from ('127.0.0.1', 56256)
+2025-04-11 18:27:01,690 [INFO] Query='hi...' from 127.0.0.1 Result=NOT FOUND
+2025-04-11 18:27:01,720 [INFO] Closed connection from ('127.0.0.1', 56256)
+2025-04-11 18:27:13,521 [INFO] Connection from ('127.0.0.1', 56265)
+2025-04-11 18:27:13,668 [INFO] Query='10;0;1;26;0;7;4;0;...' from 127.0.0.1 Result=FOUND
+2025-04-11 18:27:13,668 [INFO] Closed connection from ('127.0.0.1', 56265)
+2025-04-11 18:27:24,291 [INFO] Connection from ('127.0.0.1', 56276)
+2025-04-11 18:27:24,390 [INFO] Query='10;0;1;26;0;7;4;0;...' from 127.0.0.1 Result=FOUND
+2025-04-11 18:27:24,406 [INFO] Closed connection from ('127.0.0.1', 56276)
+2025-04-11 18:27:26,889 [INFO] Connection from ('127.0.0.1', 56277)
+2025-04-11 18:27:26,968 [INFO] Query='10;0;1;26;0;7;4;0;...' from 127.0.0.1 Result=FOUND
+2025-04-11 18:27:26,968 [INFO] Closed connection from ('127.0.0.1', 56277)
+2025-04-11 18:27:29,231 [INFO] Connection from ('127.0.0.1', 56280)
+2025-04-11 18:27:29,276 [INFO] Query='10;0;1;26;0;7;4;0;...' from 127.0.0.1 Result=FOUND
+2025-04-11 18:27:29,296 [INFO] Closed connection from ('127.0.0.1', 56280)
+2025-04-11 18:27:31,484 [INFO] Connection from ('127.0.0.1', 56282)
+2025-04-11 18:27:31,538 [INFO] Query='10;0;1;26;0;7;4;0;...' from 127.0.0.1 Result=FOUND
+2025-04-11 18:27:31,538 [INFO] Closed connection from ('127.0.0.1', 56282)
+2025-04-11 18:27:33,960 [INFO] Connection from ('127.0.0.1', 56284)
+2025-04-11 18:27:34,033 [INFO] Query='10;0;1;26;0;7;4;0;...' from 127.0.0.1 Result=FOUND
+2025-04-11 18:27:34,050 [INFO] Closed connection from ('127.0.0.1', 56284)
+2025-04-13 13:57:23,343 [INFO] Server started on port 5555
+2025-04-13 13:57:38,490 [INFO] Connection from ('127.0.0.1', 53723)
+2025-04-13 13:57:38,543 [INFO] Query='hi...' from 127.0.0.1 Result=NOT FOUND (51.94ms)
+2025-04-13 13:57:38,547 [INFO] Closed connection from ('127.0.0.1', 53723)
+2025-04-13 13:57:51,955 [INFO] Connection from ('127.0.0.1', 53736)
+2025-04-13 13:57:51,991 [INFO] Query='10;0;1;26;0;7;4;0;...' from 127.0.0.1 Result=FOUND (35.23ms)
+2025-04-13 13:57:51,992 [INFO] Closed connection from ('127.0.0.1', 53736)
