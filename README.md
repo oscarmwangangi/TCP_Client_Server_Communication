@@ -14,7 +14,6 @@
 
 **benchmarks/** (Performance testing)
 - `benchmark_report.pdf` - PDF report of algorithm comparisons
-- `performance_comparison.png` - Visual graphs of benchmark results
 - `performance_report.png` - Visual graphs of benchmark report
 - `raw_benchmark_data.csv` - Csv report of algorithm comparisons
 - `speed_test.py` - Script to test search algorithm speeds
