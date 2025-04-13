@@ -1,8 +1,12 @@
-import sys
 import os
+import sys
+from unittest.mock import mock_open, patch
+
 import pytest
-from unittest.mock import patch, mock_open
+
+# Add project directory to sys.path for local imports
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from search import Searcher  # noqa: E402
 
 

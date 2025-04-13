@@ -1,18 +1,22 @@
-import sys
 import os
+import sys
 import time
+import logging
+import platform
+import traceback
+import unicodedata
+from datetime import datetime
+from statistics import mean, quantiles, stdev
+
 import pandas as pd
 import matplotlib.pyplot as plt
 import psutil
-from statistics import mean, stdev, quantiles
 from fpdf import FPDF
 from fpdf.errors import FPDFException
-import platform
-import logging
-from datetime import datetime
-import traceback
-import unicodedata
+
+# Add project directory to sys.path for local imports
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from search import Searcher  # noqa: E402
 
 

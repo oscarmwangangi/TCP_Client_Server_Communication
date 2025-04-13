@@ -1,19 +1,16 @@
-"""
-SSL Utilities Module with Integrated Tests
-Combines ssl_utils.py and test_ssl_utils.py functionality
-"""
-
 import ssl
 import os
 import tempfile
 from typing import Optional
+
+import datetime
+import pytest
+
 from cryptography import x509
 from cryptography.hazmat.backends import default_backend
 from cryptography.hazmat.primitives import hashes, serialization
 from cryptography.hazmat.primitives.asymmetric import rsa
 from cryptography.x509.oid import NameOID
-import datetime
-import pytest
 
 
 # SSL Utilities Implementation

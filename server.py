@@ -1,19 +1,16 @@
-"""
-TCP Search Server - Systemd Optimized Version
-Author: Oscar
-"""
-
-import socket
-import threading
+import atexit
 import configparser
 import logging
 import signal
-import sys
-import atexit
+import socket
 import ssl
-from ssl_utils import create_ssl_context
-from search import Searcher
+import sys
+import threading
 import time
+
+from search import Searcher
+from ssl_utils import create_ssl_context
+
 
 # Load configuration
 config = configparser.ConfigParser()
