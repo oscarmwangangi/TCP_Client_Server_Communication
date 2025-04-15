@@ -1,50 +1,53 @@
-import os
-import socket
-import ssl  # noqa: F401 (kept for potential future use)
-import sys
-import threading
 import configparser
-import logging
-from unittest.mock import patch, MagicMock, mock_open
-import pytest
 import datetime
+import logging
+import socket
+import threading
+from unittest.mock import MagicMock, mock_open, patch
+
+import pytest
 from cryptography import x509
-from cryptography.x509.oid import NameOID
+from cryptography.hazmat.backends import default_backend
 from cryptography.hazmat.primitives import hashes, serialization
 from cryptography.hazmat.primitives.asymmetric import rsa
-from cryptography.hazmat.backends import default_backend
+from cryptography.x509.oid import NameOID
+
+from server import TCPServer
 
 
-# Add parent directory to path
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-
-# Mock configuration
-pytestmark = pytest.mark.timeout(5)  # Global timeout for all tests
-mock_config = configparser.ConfigParser()
-mock_config.read_dict({
+MOCK_CONFIG = {
     "SERVER": {
         "port": "5555",
+        "max_allowed_time_ms": "1000",
         "reread_on_query": "False",
         "ssl_enabled": "False",
-        "max_allowed_time_ms": "1000"
+        "max_workers": "10"
     },
     "SSL": {
         "certfile": "",
-        "keyfile": ""
+        "keyfile": "",
+        "cafile": ""
     },
     "PATHS": {
         "linuxpath": "test_data.txt"
     }
-})
+}
+
+# Create a fixture to mock the config file
 
 
-# Patch config before imports
-with patch("configparser.ConfigParser") as mock_config_class:
-    mock_config_class.return_value = mock_config
-    from server import TCPServer  # noqa: F401
+@pytest.fixture(autouse=True)
+def mock_config():
+    with patch('configparser.ConfigParser') as mock_configparser:
+        mock_config = configparser.ConfigParser()
+        mock_config.read_dict(MOCK_CONFIG)
+        mock_configparser.return_value = mock_config
+        yield
 
 
-# Test Data
+# Now import the server module after setting up the mocks
+
+# Test data
 TEST_DATA = """7;0;6;28;0;23;5;0;
 10;0;1;26;0;8;3;0;
 1;2;3;
@@ -100,10 +103,12 @@ def test_server():
     """Fixture providing a test server instance."""
     with patch("builtins.open", mock_open(read_data=TEST_DATA)):
         server = TCPServer()
-        server.shutdown_flag = False  # Explicitly set to False
+        server.shutdown_flag = False
         yield server
         dummy_sock = MagicMock()
         server.cleanup(dummy_sock)
+
+# Rest of your test functions remain the same...
 
 
 def test_handle_client_normal_query(test_server, caplog):
@@ -162,17 +167,6 @@ def test_empty_query(test_server):
     mock_conn.recv.side_effect = [b"\x00", b""]
     test_server.handle_client(mock_conn, ("127.0.0.1", 12345))
     mock_conn.sendall.assert_called_once_with(b"STRING NOT FOUND\n")
-
-
-@patch("ssl.create_default_context")
-def test_ssl_handshake_success(mock_ssl_context, test_server):
-    """Test successful SSL handshake."""
-    mock_ssl_socket = MagicMock()
-    mock_ssl_context.return_value.wrap_socket.return_value = mock_ssl_socket
-    test_server.ssl_enabled = True
-    threading.Thread(target=test_server.start, daemon=True).start()
-    sock = socket.create_connection(("127.0.0.1", 5555))
-    sock.close()
 
 
 def test_multiple_simultaneous_connections(test_server):

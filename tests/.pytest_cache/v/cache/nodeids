@@ -28,6 +28,7 @@
   "test_server.py::test_empty_string_search",
   "test_server.py::test_handle_client_normal_query",
   "test_server.py::test_handle_client_not_found",
+  "test_server.py::test_high_connection_load",
   "test_server.py::test_invalid_port_config",
   "test_server.py::test_invalid_utf8_query",
   "test_server.py::test_max_payload_size",
@@ -40,8 +41,18 @@
   "test_server.py::test_signal_handling",
   "test_server.py::test_ssl_connection",
   "test_server.py::test_ssl_handshake_success",
+  "test_ssl_utils.py::TestSSLUtils::test_create_ssl_context_success",
+  "test_ssl_utils.py::TestSSLUtils::test_create_ssl_context_with_ca",
+  "test_ssl_utils.py::TestSSLUtils::test_ec_certificate",
+  "test_ssl_utils.py::TestSSLUtils::test_expired_certificate",
+  "test_ssl_utils.py::TestSSLUtils::test_invalid_cert_format",
+  "test_ssl_utils.py::TestSSLUtils::test_mismatched_cert_key",
+  "test_ssl_utils.py::TestSSLUtils::test_missing_cert_file",
+  "test_ssl_utils.py::TestSSLUtils::test_missing_key_file",
   "test_ssl_utils.py::test_invalid_cert_file",
+  "test_ssl_utils.py::test_invalid_cert_format",
   "test_ssl_utils.py::test_missing_cert_file",
   "test_ssl_utils.py::test_missing_key_file",
-  "test_ssl_utils.py::test_ssl_context_creation"
+  "test_ssl_utils.py::test_ssl_context_creation",
+  "test_ssl_utils.py::test_ssl_context_with_cafile"
 ]

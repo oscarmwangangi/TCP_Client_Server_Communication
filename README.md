@@ -13,11 +13,11 @@
 - `README.md` - Setup and usage documentation
 
 **benchmarks/** (Performance testing)
-- `benchmark_report.pdf` - PDF report of algorithm comparisons
+- `benchmark_report.pdf` - pdf report of algorithm comparisons
+- `performance_comparison.png` - Visual graphs of benchmark results
 - `performance_report.png` - Visual graphs of benchmark report
-- `raw_benchmark_data.csv` - Csv report of algorithm comparisons
+- `raw_benchmark_data.csv` - CSV report of algorithm comparisons
 - `speed_test.py` - Script to test search algorithm speeds
-- 
 
 **tests/** (Unit and integration tests)
 - `test_server.py` - Tests for server.py
@@ -65,7 +65,7 @@ Open two terminals in the project directory:
    python3 server.py
    ```
 
-2. Terminal 2 run Client:
+2. In the second terminal, run the client
     ```bash
     python3 client.py "your_search_string"
     ```

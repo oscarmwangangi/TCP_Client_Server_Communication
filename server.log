@@ -156,3 +156,162 @@
 2025-04-13 13:57:51,955 [INFO] Connection from ('127.0.0.1', 53736)
 2025-04-13 13:57:51,991 [INFO] Query='10;0;1;26;0;7;4;0;...' from 127.0.0.1 Result=FOUND (35.23ms)
 2025-04-13 13:57:51,992 [INFO] Closed connection from ('127.0.0.1', 53736)
+2025-04-14 22:26:40,108 [INFO] Server started on port 5555
+2025-04-14 22:26:52,384 [INFO] Connection from ('127.0.0.1', 63321)
+2025-04-14 22:26:52,490 [WARNING] Slow query detected: 'ho...' from 127.0.0.1, took 104.25ms (limit 100ms)
+2025-04-14 22:26:52,490 [INFO] Query='ho...' from 127.0.0.1 Result=NOT FOUND (104.25ms)
+2025-04-14 22:26:52,504 [INFO] Closed connection from ('127.0.0.1', 63321)
+2025-04-14 22:28:50,338 [INFO] Connection from ('127.0.0.1', 63421)
+2025-04-14 22:28:50,394 [INFO] Query='ho...' from 127.0.0.1 Result=NOT FOUND (51.34ms)
+2025-04-14 22:28:50,406 [INFO] Closed connection from ('127.0.0.1', 63421)
+2025-04-14 22:28:53,365 [INFO] Received signal 2
+2025-04-14 22:28:53,365 [INFO] Shutting down server...
+2025-04-14 22:28:53,365 [INFO] Server shutdown complete
+2025-04-14 22:28:53,381 [INFO] Shutting down server...
+2025-04-14 22:28:53,381 [INFO] Server shutdown complete
+2025-04-14 22:38:57,366 [INFO] SSL enabled with certificate verification
+2025-04-14 22:38:57,366 [INFO] Server started on port 5555
+2025-04-14 22:43:22,195 [INFO] Shutting down server...
+2025-04-14 22:43:22,195 [INFO] Server shutdown complete
+2025-04-14 22:43:22,223 [INFO] Shutting down server...
+2025-04-14 22:43:22,224 [INFO] Server shutdown complete
+2025-04-14 22:43:30,365 [INFO] SSL enabled with certificate verification
+2025-04-14 22:43:30,365 [INFO] Server started on port 5555
+2025-04-14 22:45:46,960 [INFO] Shutting down server...
+2025-04-14 22:45:46,960 [INFO] Server shutdown complete
+2025-04-14 22:45:47,006 [INFO] Shutting down server...
+2025-04-14 22:45:47,006 [INFO] Server shutdown complete
+2025-04-14 22:45:54,075 [INFO] SSL enabled with certificate verification
+2025-04-14 22:45:54,075 [INFO] Server started on port 5555
+2025-04-14 22:47:30,766 [ERROR] SSL handshake failed: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1000)
+2025-04-14 22:49:04,619 [INFO] Shutting down server...
+2025-04-14 22:49:04,674 [INFO] Server shutdown complete
+2025-04-14 22:49:04,862 [INFO] Shutting down server...
+2025-04-14 22:49:04,862 [INFO] Server shutdown complete
+2025-04-14 22:49:10,372 [INFO] SSL enabled with certificate verification
+2025-04-14 22:49:10,388 [INFO] Server started on port 5555
+2025-04-14 22:49:26,029 [ERROR] SSL handshake failed: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)
+2025-04-14 22:49:34,034 [ERROR] SSL handshake failed: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)
+2025-04-14 22:49:41,915 [ERROR] SSL handshake failed: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)
+2025-04-14 22:49:47,930 [INFO] Received signal 2
+2025-04-14 22:49:47,930 [INFO] Shutting down server...
+2025-04-14 22:49:47,930 [INFO] Server shutdown complete
+2025-04-14 22:49:47,930 [INFO] Shutting down server...
+2025-04-14 22:49:47,930 [INFO] Server shutdown complete
+2025-04-14 22:49:50,404 [INFO] SSL enabled with certificate verification
+2025-04-14 22:49:50,404 [INFO] Server started on port 5555
+2025-04-14 22:49:58,279 [ERROR] SSL handshake failed: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)
+2025-04-14 22:50:09,993 [ERROR] SSL handshake failed: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)
+2025-04-14 22:51:01,682 [ERROR] SSL handshake failed: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)
+2025-04-14 22:52:53,732 [ERROR] SSL handshake failed: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)
+2025-04-14 22:53:57,498 [INFO] Shutting down server...
+2025-04-14 22:53:57,513 [INFO] Server shutdown complete
+2025-04-14 22:53:57,560 [INFO] Shutting down server...
+2025-04-14 22:53:57,560 [INFO] Server shutdown complete
+2025-04-14 22:54:04,008 [INFO] SSL enabled with certificate verification
+2025-04-14 22:54:04,008 [INFO] Server started on port 5555
+2025-04-14 22:54:20,290 [ERROR] SSL handshake failed: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1000)
+2025-04-14 22:54:50,196 [ERROR] SSL handshake failed: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1000)
+2025-04-14 22:59:51,612 [INFO] Shutting down server...
+2025-04-14 22:59:51,612 [INFO] Server shutdown complete
+2025-04-14 22:59:51,631 [INFO] Shutting down server...
+2025-04-14 22:59:51,631 [INFO] Server shutdown complete
+2025-04-14 22:59:56,805 [INFO] SSL enabled with certificate verification
+2025-04-14 22:59:56,805 [INFO] Server started on port 5555
+2025-04-14 23:00:14,847 [ERROR] SSL handshake failed: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1000)
+2025-04-14 23:00:26,472 [ERROR] SSL handshake failed: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)
+2025-04-14 23:00:32,936 [ERROR] SSL handshake failed: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)
+2025-04-14 23:00:36,736 [ERROR] SSL handshake failed: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1000)
+2025-04-14 23:01:55,568 [ERROR] SSL handshake failed: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1000)
+2025-04-14 23:02:05,914 [ERROR] SSL handshake failed: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)
+2025-04-14 23:02:25,311 [ERROR] SSL handshake failed: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)
+2025-04-14 23:03:54,619 [ERROR] SSL handshake failed: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)
+2025-04-14 23:04:33,504 [ERROR] SSL handshake failed: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)
+2025-04-14 23:04:37,908 [ERROR] SSL handshake failed: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1000)
+2025-04-14 23:05:52,097 [ERROR] SSL handshake failed: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1000)
+2025-04-14 23:06:04,602 [ERROR] SSL handshake failed: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1000)
+2025-04-14 23:06:08,572 [ERROR] SSL handshake failed: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1000)
+2025-04-14 23:06:17,436 [ERROR] SSL handshake failed: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)
+2025-04-14 23:06:22,468 [INFO] Received signal 2
+2025-04-14 23:06:22,468 [INFO] Shutting down server...
+2025-04-14 23:06:22,468 [INFO] Server shutdown complete
+2025-04-14 23:06:22,468 [INFO] Shutting down server...
+2025-04-14 23:06:22,468 [INFO] Server shutdown complete
+2025-04-14 23:11:22,261 [INFO] SSL enabled with certificate verification
+2025-04-14 23:11:22,261 [INFO] Server started on port 5555
+2025-04-14 23:11:27,072 [ERROR] SSL handshake failed: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1000)
+2025-04-14 23:11:41,161 [ERROR] SSL handshake failed: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)
+2025-04-14 23:12:04,357 [INFO] Received signal 2
+2025-04-14 23:12:04,357 [INFO] Shutting down server...
+2025-04-14 23:12:04,357 [INFO] Server shutdown complete
+2025-04-14 23:12:04,357 [INFO] Shutting down server...
+2025-04-14 23:12:04,357 [INFO] Server shutdown complete
+2025-04-14 23:12:07,478 [INFO] Server started on port 5555
+2025-04-14 23:12:10,369 [INFO] Connection from ('127.0.0.1', 49467)
+2025-04-14 23:12:10,449 [INFO] Query='hi...' from 127.0.0.1 Result=NOT FOUND (85.05ms)
+2025-04-14 23:12:15,458 [INFO] Closed connection from ('127.0.0.1', 49467)
+2025-04-14 23:12:21,811 [INFO] Connection from ('127.0.0.1', 49498)
+2025-04-14 23:12:21,869 [INFO] Query='hi...' from 127.0.0.1 Result=NOT FOUND (53.24ms)
+2025-04-14 23:12:26,880 [INFO] Closed connection from ('127.0.0.1', 49498)
+2025-04-14 23:12:29,987 [INFO] Connection from ('127.0.0.1', 49505)
+2025-04-14 23:12:30,051 [INFO] Query='test query...' from 127.0.0.1 Result=NOT FOUND (50.77ms)
+2025-04-14 23:12:35,046 [INFO] Closed connection from ('127.0.0.1', 49505)
+2025-04-14 23:12:46,630 [INFO] Connection from ('127.0.0.1', 49524)
+2025-04-14 23:12:46,698 [INFO] Query='test query...' from 127.0.0.1 Result=NOT FOUND (62.93ms)
+2025-04-14 23:12:46,706 [INFO] Closed connection from ('127.0.0.1', 49524)
+2025-04-14 23:12:50,367 [INFO] Connection from ('127.0.0.1', 49534)
+2025-04-14 23:12:50,473 [INFO] Query='hi...' from 127.0.0.1 Result=NOT FOUND (93.68ms)
+2025-04-14 23:12:50,473 [INFO] Closed connection from ('127.0.0.1', 49534)
+2025-04-14 23:13:34,926 [INFO] Connection from ('127.0.0.1', 49587)
+2025-04-14 23:13:34,957 [INFO] Query='10;0;1;26;0;7;4;0;...' from 127.0.0.1 Result=FOUND (29.49ms)
+2025-04-14 23:13:34,970 [INFO] Closed connection from ('127.0.0.1', 49587)
+2025-04-14 23:14:41,629 [INFO] Connection from ('127.0.0.1', 49663)
+2025-04-14 23:14:41,657 [INFO] Query='10;0;1;26;0;7;4;0;...' from 127.0.0.1 Result=FOUND (29.22ms)
+2025-04-14 23:14:41,657 [INFO] Closed connection from ('127.0.0.1', 49663)
+2025-04-14 23:14:43,878 [INFO] Connection from ('127.0.0.1', 49669)
+2025-04-14 23:14:43,969 [INFO] Query='10;0;1;26;0;7;4;0;...' from 127.0.0.1 Result=FOUND (95.82ms)
+2025-04-14 23:14:43,969 [INFO] Closed connection from ('127.0.0.1', 49669)
+2025-04-14 23:14:49,906 [INFO] Received signal 2
+2025-04-14 23:14:49,906 [INFO] Shutting down server...
+2025-04-14 23:14:49,906 [INFO] Server shutdown complete
+2025-04-14 23:14:49,906 [INFO] Shutting down server...
+2025-04-14 23:14:49,906 [INFO] Server shutdown complete
+2025-04-14 23:15:00,659 [INFO] SSL enabled with certificate verification
+2025-04-14 23:15:00,659 [INFO] Server started on port 5555
+2025-04-14 23:15:03,593 [ERROR] SSL handshake failed: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1000)
+2025-04-14 23:15:20,682 [ERROR] SSL handshake failed: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)
+2025-04-14 23:17:04,458 [INFO] Received signal 2
+2025-04-14 23:17:04,458 [INFO] Shutting down server...
+2025-04-14 23:17:04,458 [INFO] Server shutdown complete
+2025-04-14 23:17:04,458 [INFO] Shutting down server...
+2025-04-14 23:17:04,458 [INFO] Server shutdown complete
+2025-04-14 23:23:49,089 [INFO] [MainThread] SSL enabled with certificate verification
+2025-04-14 23:23:49,097 [INFO] [MainThread] Server started on port 5555 with 20 worker threads
+2025-04-14 23:23:58,573 [ERROR] [MainThread] SSL handshake failed with ('127.0.0.1', 50458): [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)
+2025-04-14 23:24:04,333 [ERROR] [MainThread] SSL handshake failed with ('127.0.0.1', 50472): [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1000)
+2025-04-14 23:24:40,553 [INFO] [MainThread] Received signal 2, initiating shutdown...
+2025-04-14 23:24:40,553 [INFO] [MainThread] Initiating graceful shutdown...
+2025-04-14 23:24:40,553 [INFO] [MainThread] Connection statistics:
+2025-04-14 23:24:40,553 [INFO] [MainThread] Server shutdown complete
+2025-04-14 23:24:40,553 [INFO] [MainThread] Initiating graceful shutdown...
+2025-04-14 23:24:40,553 [INFO] [MainThread] Connection statistics:
+2025-04-14 23:24:40,562 [INFO] [MainThread] Server shutdown complete
+2025-04-14 23:49:14,976 [INFO] [MainThread] SSL enabled with certificate verification
+2025-04-14 23:49:14,976 [INFO] [MainThread] Server started on port 5555 with 20 worker threads
+2025-04-14 23:49:22,003 [INFO] [MainThread] Received signal 2, initiating shutdown...
+2025-04-14 23:49:22,003 [INFO] [MainThread] Initiating graceful shutdown...
+2025-04-14 23:49:22,003 [INFO] [MainThread] Connection statistics:
+2025-04-14 23:49:22,003 [INFO] [MainThread] Server shutdown complete
+2025-04-14 23:49:22,003 [INFO] [MainThread] Initiating graceful shutdown...
+2025-04-14 23:49:22,012 [INFO] [MainThread] Connection statistics:
+2025-04-14 23:49:22,012 [INFO] [MainThread] Server shutdown complete
+2025-04-15 03:32:33,888 [INFO] [MainThread] SSL enabled with certificate verification
+2025-04-15 03:32:33,888 [INFO] [MainThread] Server started on port 5555 with 20 worker threads
+2025-04-15 03:33:01,571 [ERROR] [MainThread] SSL handshake failed with ('127.0.0.1', 51113): [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1000)
+2025-04-15 03:33:23,717 [INFO] [MainThread] Received signal 2, initiating shutdown...
+2025-04-15 03:33:23,718 [INFO] [MainThread] Initiating graceful shutdown...
+2025-04-15 03:33:23,719 [INFO] [MainThread] Connection statistics:
+2025-04-15 03:33:23,721 [INFO] [MainThread] Server shutdown complete
+2025-04-15 03:33:23,723 [INFO] [MainThread] Initiating graceful shutdown...
+2025-04-15 03:33:23,724 [INFO] [MainThread] Connection statistics:
+2025-04-15 03:33:23,726 [INFO] [MainThread] Server shutdown complete

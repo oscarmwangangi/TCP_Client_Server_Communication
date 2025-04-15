@@ -55,6 +55,7 @@ TEST_QUERIES = [
 class UnicodePDF(FPDF):
     """PDF generator using the built-in
     Arial font for proper ASCII/Unicode support."""
+
     def __init__(self):
         super().__init__()
         # Use built-in Arial font; no need to load external fonts
@@ -108,7 +109,7 @@ def generate_test_files():
             start_time = time.time()
             processed_lines = 0
             with open("../200k.txt", "r", encoding='utf-8') as f_in, \
-                 open(output_file, "w", encoding='utf-8') as f_out:
+                    open(output_file, "w", encoding='utf-8') as f_out:
                 for i, line in enumerate(f_in):
                     if i >= size:
                         break
@@ -122,7 +123,7 @@ def generate_test_files():
                         )
             logger.info(
                 f"Created {size:,} line test file in"
-                f" {time.time()-start_time:.2f} seconds"
+                f" {time.time() - start_time:.2f} seconds"
             )
         return True
     except Exception as e:
@@ -374,7 +375,7 @@ def generate_pdf_report(df, validation_results):
         pdf.cell(
             0, 10, f"Processor: {platform.processor()}")
         pdf.cell(
-            0, 10, f"Memory: {psutil.virtual_memory().total/1e9:.1f} GB RAM")
+            0, 10, f"Memory: {psutil.virtual_memory().total / 1e9:.1f} GB RAM")
         pdf.ln(15)
         # Summary of Findings
         pdf.set_font('Arial', 'B', 14)

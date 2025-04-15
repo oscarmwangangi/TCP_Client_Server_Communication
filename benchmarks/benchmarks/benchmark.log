@@ -633,3 +633,331 @@
 2025-04-13 12:35:27,166 [INFO    ] Generating final report...
 2025-04-13 12:35:55,162 [INFO    ] Generated comprehensive PDF report: benchmarks/benchmark_report.pdf
 2025-04-13 12:35:55,163 [INFO    ] Benchmark completed in 43.28seconds. Final status: PASS
+2025-04-14 23:44:29,355 [INFO    ] Starting benchmark suite
+2025-04-14 23:44:29,397 [ERROR   ] Failed linear 10000 M: name 'Searcher' is not defined
+2025-04-14 23:44:29,397 [ERROR   ] Failed linear 10000 R: name 'Searcher' is not defined
+2025-04-14 23:44:29,397 [ERROR   ] Failed binary 10000 M: name 'Searcher' is not defined
+2025-04-14 23:44:29,397 [ERROR   ] Failed binary 10000 R: name 'Searcher' is not defined
+2025-04-14 23:44:29,397 [ERROR   ] Failed hash 10000 M: name 'Searcher' is not defined
+2025-04-14 23:44:29,405 [ERROR   ] Failed hash 10000 R: name 'Searcher' is not defined
+2025-04-14 23:44:29,405 [ERROR   ] Failed trie 10000 M: name 'Searcher' is not defined
+2025-04-14 23:44:29,409 [ERROR   ] Failed trie 10000 R: name 'Searcher' is not defined
+2025-04-14 23:44:29,411 [ERROR   ] Failed mmap 10000 M: name 'Searcher' is not defined
+2025-04-14 23:44:29,411 [ERROR   ] Failed mmap 10000 R: name 'Searcher' is not defined
+2025-04-14 23:44:29,411 [ERROR   ] Failed linear 50000 M: name 'Searcher' is not defined
+2025-04-14 23:44:29,411 [ERROR   ] Failed linear 50000 R: name 'Searcher' is not defined
+2025-04-14 23:44:29,411 [ERROR   ] Failed binary 50000 M: name 'Searcher' is not defined
+2025-04-14 23:44:29,419 [ERROR   ] Failed binary 50000 R: name 'Searcher' is not defined
+2025-04-14 23:44:29,419 [ERROR   ] Failed hash 50000 M: name 'Searcher' is not defined
+2025-04-14 23:44:29,419 [ERROR   ] Failed hash 50000 R: name 'Searcher' is not defined
+2025-04-14 23:44:29,419 [ERROR   ] Failed trie 50000 M: name 'Searcher' is not defined
+2025-04-14 23:44:29,427 [ERROR   ] Failed trie 50000 R: name 'Searcher' is not defined
+2025-04-14 23:44:29,431 [ERROR   ] Failed mmap 50000 M: name 'Searcher' is not defined
+2025-04-14 23:44:29,431 [ERROR   ] Failed mmap 50000 R: name 'Searcher' is not defined
+2025-04-14 23:44:29,431 [ERROR   ] Failed linear 100000 M: name 'Searcher' is not defined
+2025-04-14 23:44:29,431 [ERROR   ] Failed linear 100000 R: name 'Searcher' is not defined
+2025-04-14 23:44:29,439 [ERROR   ] Failed binary 100000 M: name 'Searcher' is not defined
+2025-04-14 23:44:29,439 [ERROR   ] Failed binary 100000 R: name 'Searcher' is not defined
+2025-04-14 23:44:29,439 [ERROR   ] Failed hash 100000 M: name 'Searcher' is not defined
+2025-04-14 23:44:29,439 [ERROR   ] Failed hash 100000 R: name 'Searcher' is not defined
+2025-04-14 23:44:29,439 [ERROR   ] Failed trie 100000 M: name 'Searcher' is not defined
+2025-04-14 23:44:29,439 [ERROR   ] Failed trie 100000 R: name 'Searcher' is not defined
+2025-04-14 23:44:29,439 [ERROR   ] Failed mmap 100000 M: name 'Searcher' is not defined
+2025-04-14 23:44:29,447 [ERROR   ] Failed mmap 100000 R: name 'Searcher' is not defined
+2025-04-14 23:44:29,447 [ERROR   ] Failed linear 200000 M: name 'Searcher' is not defined
+2025-04-14 23:44:29,450 [ERROR   ] Failed linear 200000 R: name 'Searcher' is not defined
+2025-04-14 23:44:29,452 [ERROR   ] Failed binary 200000 M: name 'Searcher' is not defined
+2025-04-14 23:44:29,452 [ERROR   ] Failed binary 200000 R: name 'Searcher' is not defined
+2025-04-14 23:44:29,452 [ERROR   ] Failed hash 200000 M: name 'Searcher' is not defined
+2025-04-14 23:44:29,452 [ERROR   ] Failed hash 200000 R: name 'Searcher' is not defined
+2025-04-14 23:44:29,452 [ERROR   ] Failed trie 200000 M: name 'Searcher' is not defined
+2025-04-14 23:44:29,452 [ERROR   ] Failed trie 200000 R: name 'Searcher' is not defined
+2025-04-14 23:44:29,452 [ERROR   ] Failed mmap 200000 M: name 'Searcher' is not defined
+2025-04-14 23:44:29,460 [ERROR   ] Failed mmap 200000 R: name 'Searcher' is not defined
+2025-04-14 23:44:29,500 [ERROR   ] Benchmark failed: 'algorithm'
+2025-04-14 23:45:40,038 [INFO    ] Starting benchmark suite
+2025-04-14 23:45:40,038 [INFO    ] LINEAR MEMORY 10,000 rec: Avg=0.00ms (P99=0.00ms)
+2025-04-14 23:45:40,159 [INFO    ] LINEAR REREAD 10,000 rec: Avg=0.40ms (P99=4.50ms)
+2025-04-14 23:45:40,159 [ERROR   ] Failed binary 10000 M: 'Searcher' object has no attribute 'binary_search'
+2025-04-14 23:45:40,291 [INFO    ] BINARY REREAD 10,000 rec: Avg=0.41ms (P99=3.12ms)
+2025-04-14 23:45:40,299 [INFO    ] HASH MEMORY 10,000 rec: Avg=0.00ms (P99=0.01ms)
+2025-04-14 23:45:40,395 [INFO    ] HASH REREAD 10,000 rec: Avg=0.32ms (P99=2.13ms)
+2025-04-14 23:45:40,403 [INFO    ] TRIE MEMORY 10,000 rec: Avg=0.00ms (P99=0.01ms)
+2025-04-14 23:45:40,499 [INFO    ] TRIE REREAD 10,000 rec: Avg=0.30ms (P99=1.83ms)
+2025-04-14 23:45:40,499 [INFO    ] MMAP MEMORY 10,000 rec: Avg=0.00ms (P99=0.00ms)
+2025-04-14 23:45:40,575 [INFO    ] MMAP REREAD 10,000 rec: Avg=0.22ms (P99=1.58ms)
+2025-04-14 23:45:40,575 [INFO    ] LINEAR MEMORY 50,000 rec: Avg=0.00ms (P99=0.00ms)
+2025-04-14 23:45:40,670 [INFO    ] LINEAR REREAD 50,000 rec: Avg=0.31ms (P99=1.40ms)
+2025-04-14 23:45:40,679 [ERROR   ] Failed binary 50000 M: 'Searcher' object has no attribute 'binary_search'
+2025-04-14 23:45:40,870 [INFO    ] BINARY REREAD 50,000 rec: Avg=0.62ms (P99=3.87ms)
+2025-04-14 23:45:40,870 [INFO    ] HASH MEMORY 50,000 rec: Avg=0.00ms (P99=0.00ms)
+2025-04-14 23:45:40,987 [INFO    ] HASH REREAD 50,000 rec: Avg=0.35ms (P99=1.62ms)
+2025-04-14 23:45:40,992 [INFO    ] TRIE MEMORY 50,000 rec: Avg=0.00ms (P99=0.00ms)
+2025-04-14 23:45:41,112 [INFO    ] TRIE REREAD 50,000 rec: Avg=0.38ms (P99=2.12ms)
+2025-04-14 23:45:41,112 [INFO    ] MMAP MEMORY 50,000 rec: Avg=0.00ms (P99=0.01ms)
+2025-04-14 23:45:41,200 [INFO    ] MMAP REREAD 50,000 rec: Avg=0.29ms (P99=1.04ms)
+2025-04-14 23:45:41,208 [INFO    ] LINEAR MEMORY 100,000 rec: Avg=0.00ms (P99=0.00ms)
+2025-04-14 23:45:41,312 [INFO    ] LINEAR REREAD 100,000 rec: Avg=0.33ms (P99=2.92ms)
+2025-04-14 23:45:41,312 [ERROR   ] Failed binary 100000 M: 'Searcher' object has no attribute 'binary_search'
+2025-04-14 23:45:41,469 [INFO    ] BINARY REREAD 100,000 rec: Avg=0.53ms (P99=4.54ms)
+2025-04-14 23:45:41,485 [INFO    ] HASH MEMORY 100,000 rec: Avg=0.00ms (P99=0.00ms)
+2025-04-14 23:45:41,641 [INFO    ] HASH REREAD 100,000 rec: Avg=0.51ms (P99=4.09ms)
+2025-04-14 23:45:41,641 [INFO    ] TRIE MEMORY 100,000 rec: Avg=0.00ms (P99=0.00ms)
+2025-04-14 23:45:41,759 [INFO    ] TRIE REREAD 100,000 rec: Avg=0.36ms (P99=2.03ms)
+2025-04-14 23:45:41,762 [INFO    ] MMAP MEMORY 100,000 rec: Avg=0.00ms (P99=0.00ms)
+2025-04-14 23:45:41,853 [INFO    ] MMAP REREAD 100,000 rec: Avg=0.29ms (P99=1.32ms)
+2025-04-14 23:45:41,861 [INFO    ] LINEAR MEMORY 200,000 rec: Avg=0.00ms (P99=0.00ms)
+2025-04-14 23:45:41,992 [INFO    ] LINEAR REREAD 200,000 rec: Avg=0.42ms (P99=3.28ms)
+2025-04-14 23:45:41,992 [ERROR   ] Failed binary 200000 M: 'Searcher' object has no attribute 'binary_search'
+2025-04-14 23:45:42,163 [INFO    ] BINARY REREAD 200,000 rec: Avg=0.55ms (P99=13.35ms)
+2025-04-14 23:45:42,179 [INFO    ] HASH MEMORY 200,000 rec: Avg=0.00ms (P99=0.00ms)
+2025-04-14 23:45:42,307 [INFO    ] HASH REREAD 200,000 rec: Avg=0.35ms (P99=2.69ms)
+2025-04-14 23:45:42,323 [INFO    ] TRIE MEMORY 200,000 rec: Avg=0.00ms (P99=0.00ms)
+2025-04-14 23:45:42,416 [INFO    ] TRIE REREAD 200,000 rec: Avg=0.31ms (P99=1.27ms)
+2025-04-14 23:45:42,424 [INFO    ] MMAP MEMORY 200,000 rec: Avg=0.00ms (P99=0.00ms)
+2025-04-14 23:45:42,494 [INFO    ] MMAP REREAD 200,000 rec: Avg=0.26ms (P99=1.12ms)
+2025-04-14 23:45:42,653 [WARNING ] No data for binary reread_off
+2025-04-14 23:50:43,555 [INFO    ] Starting benchmark suite
+2025-04-14 23:50:43,555 [INFO    ] LINEAR MEMORY 10,000 rec: Avg=0.00ms (P99=0.00ms)
+2025-04-14 23:50:43,679 [INFO    ] LINEAR REREAD 10,000 rec: Avg=0.37ms (P99=2.95ms)
+2025-04-14 23:50:43,679 [ERROR   ] Failed binary 10000 M: 'Searcher' object has no attribute 'binary_search'
+2025-04-14 23:50:43,792 [INFO    ] BINARY REREAD 10,000 rec: Avg=0.36ms (P99=3.00ms)
+2025-04-14 23:50:43,800 [INFO    ] HASH MEMORY 10,000 rec: Avg=0.00ms (P99=0.01ms)
+2025-04-14 23:50:43,904 [INFO    ] HASH REREAD 10,000 rec: Avg=0.33ms (P99=2.07ms)
+2025-04-14 23:50:43,904 [INFO    ] TRIE MEMORY 10,000 rec: Avg=0.00ms (P99=0.00ms)
+2025-04-14 23:50:44,013 [INFO    ] TRIE REREAD 10,000 rec: Avg=0.34ms (P99=2.05ms)
+2025-04-14 23:50:44,013 [INFO    ] MMAP MEMORY 10,000 rec: Avg=0.00ms (P99=0.00ms)
+2025-04-14 23:50:44,113 [INFO    ] MMAP REREAD 10,000 rec: Avg=0.31ms (P99=1.88ms)
+2025-04-14 23:50:44,118 [INFO    ] LINEAR MEMORY 50,000 rec: Avg=0.00ms (P99=0.00ms)
+2025-04-14 23:50:44,208 [INFO    ] LINEAR REREAD 50,000 rec: Avg=0.29ms (P99=1.39ms)
+2025-04-14 23:50:44,208 [ERROR   ] Failed binary 50000 M: 'Searcher' object has no attribute 'binary_search'
+2025-04-14 23:50:44,312 [INFO    ] BINARY REREAD 50,000 rec: Avg=0.34ms (P99=2.01ms)
+2025-04-14 23:50:44,320 [INFO    ] HASH MEMORY 50,000 rec: Avg=0.00ms (P99=0.00ms)
+2025-04-14 23:50:44,417 [INFO    ] HASH REREAD 50,000 rec: Avg=0.31ms (P99=1.00ms)
+2025-04-14 23:50:44,417 [INFO    ] TRIE MEMORY 50,000 rec: Avg=0.00ms (P99=0.00ms)
+2025-04-14 23:50:44,523 [INFO    ] TRIE REREAD 50,000 rec: Avg=0.33ms (P99=1.28ms)
+2025-04-14 23:50:44,523 [INFO    ] MMAP MEMORY 50,000 rec: Avg=0.00ms (P99=0.00ms)
+2025-04-14 23:50:44,625 [INFO    ] MMAP REREAD 50,000 rec: Avg=0.31ms (P99=1.23ms)
+2025-04-14 23:50:44,625 [INFO    ] LINEAR MEMORY 100,000 rec: Avg=0.00ms (P99=0.00ms)
+2025-04-14 23:50:44,701 [INFO    ] LINEAR REREAD 100,000 rec: Avg=0.24ms (P99=1.04ms)
+2025-04-14 23:50:44,701 [ERROR   ] Failed binary 100000 M: 'Searcher' object has no attribute 'binary_search'
+2025-04-14 23:50:44,792 [INFO    ] BINARY REREAD 100,000 rec: Avg=0.28ms (P99=1.11ms)
+2025-04-14 23:50:44,800 [INFO    ] HASH MEMORY 100,000 rec: Avg=0.00ms (P99=0.00ms)
+2025-04-14 23:50:45,011 [INFO    ] HASH REREAD 100,000 rec: Avg=0.59ms (P99=5.12ms)
+2025-04-14 23:50:45,059 [INFO    ] TRIE MEMORY 100,000 rec: Avg=0.00ms (P99=0.00ms)
+2025-04-14 23:50:45,204 [INFO    ] TRIE REREAD 100,000 rec: Avg=0.45ms (P99=3.85ms)
+2025-04-14 23:50:45,204 [INFO    ] MMAP MEMORY 100,000 rec: Avg=0.00ms (P99=0.00ms)
+2025-04-14 23:50:45,312 [INFO    ] MMAP REREAD 100,000 rec: Avg=0.30ms (P99=2.19ms)
+2025-04-14 23:50:45,312 [INFO    ] LINEAR MEMORY 200,000 rec: Avg=0.00ms (P99=0.00ms)
+2025-04-14 23:50:45,391 [INFO    ] LINEAR REREAD 200,000 rec: Avg=0.27ms (P99=0.96ms)
+2025-04-14 23:50:45,391 [ERROR   ] Failed binary 200000 M: 'Searcher' object has no attribute 'binary_search'
+2025-04-14 23:50:45,500 [INFO    ] BINARY REREAD 200,000 rec: Avg=0.32ms (P99=1.31ms)
+2025-04-14 23:50:45,500 [INFO    ] HASH MEMORY 200,000 rec: Avg=0.00ms (P99=0.00ms)
+2025-04-14 23:50:45,596 [INFO    ] HASH REREAD 200,000 rec: Avg=0.30ms (P99=1.25ms)
+2025-04-14 23:50:45,596 [INFO    ] TRIE MEMORY 200,000 rec: Avg=0.00ms (P99=0.00ms)
+2025-04-14 23:50:45,700 [INFO    ] TRIE REREAD 200,000 rec: Avg=0.33ms (P99=1.68ms)
+2025-04-14 23:50:45,708 [INFO    ] MMAP MEMORY 200,000 rec: Avg=0.00ms (P99=0.00ms)
+2025-04-14 23:50:45,765 [INFO    ] MMAP REREAD 200,000 rec: Avg=0.22ms (P99=0.68ms)
+2025-04-14 23:50:45,785 [WARNING ] No data for binary reread_off
+2025-04-14 23:52:13,915 [INFO    ] Starting TCP Search Server Benchmark
+2025-04-14 23:52:13,915 [INFO    ] Generating test files...
+2025-04-14 23:52:13,915 [INFO    ] Running benchmark suite...
+2025-04-14 23:52:13,915 [INFO    ] Testing LINEAR search with MEMORY on10,000 records
+2025-04-14 23:52:13,930 [INFO    ] Testing LINEAR search with RE-READ on10,000 records
+2025-04-14 23:52:14,093 [INFO    ] Testing BINARY search with MEMORY on10,000 records
+2025-04-14 23:52:14,093 [ERROR   ] Benchmark failed for binary 10000 (reread=False): 'Searcher' object has no attribute 'binary_search'
+2025-04-14 23:52:14,101 [INFO    ] Testing BINARY search with RE-READ on10,000 records
+2025-04-14 23:52:14,270 [INFO    ] Testing LINEAR search with MEMORY on50,000 records
+2025-04-14 23:52:14,270 [INFO    ] Testing LINEAR search with RE-READ on50,000 records
+2025-04-14 23:52:14,508 [INFO    ] Testing BINARY search with MEMORY on50,000 records
+2025-04-14 23:52:14,516 [ERROR   ] Benchmark failed for binary 50000 (reread=False): 'Searcher' object has no attribute 'binary_search'
+2025-04-14 23:52:14,527 [INFO    ] Testing BINARY search with RE-READ on50,000 records
+2025-04-14 23:52:14,900 [INFO    ] Testing LINEAR search with MEMORY on100,000 records
+2025-04-14 23:52:14,900 [INFO    ] Testing LINEAR search with RE-READ on100,000 records
+2025-04-14 23:52:15,107 [INFO    ] Testing BINARY search with MEMORY on100,000 records
+2025-04-14 23:52:15,107 [ERROR   ] Benchmark failed for binary 100000 (reread=False): 'Searcher' object has no attribute 'binary_search'
+2025-04-14 23:52:15,123 [INFO    ] Testing BINARY search with RE-READ on100,000 records
+2025-04-14 23:52:15,415 [INFO    ] Testing LINEAR search with MEMORY on200,000 records
+2025-04-14 23:52:15,430 [INFO    ] Testing LINEAR search with RE-READ on200,000 records
+2025-04-14 23:52:15,613 [INFO    ] Testing BINARY search with MEMORY on200,000 records
+2025-04-14 23:52:15,613 [ERROR   ] Benchmark failed for binary 200000 (reread=False): 'Searcher' object has no attribute 'binary_search'
+2025-04-14 23:52:15,613 [INFO    ] Testing BINARY search with RE-READ on200,000 records
+2025-04-14 23:52:15,850 [INFO    ] Validating performance...
+2025-04-14 23:52:15,865 [INFO    ] PASS: LINEAR search (REREAD_OFF) - Average: 0.01ms <= 100ms, 99th Percentile: 0.05ms <= 150ms, 99.9th Percentile: 2.91ms <= 200ms
+2025-04-14 23:52:15,870 [INFO    ] PASS: LINEAR search (REREAD_ON) - Average: 0.42ms <= 500ms, 99th Percentile: 2.85ms <= 750ms, 99.9th Percentile: 9.06ms <= 1000ms
+2025-04-14 23:52:15,875 [WARNING ] No data for binary reread_off at 200000 records
+2025-04-14 23:52:15,875 [INFO    ] PASS: BINARY search (REREAD_ON) - Average: 0.45ms <= 50ms, 99th Percentile: 2.15ms <= 100ms, 99.9th Percentile: 4.66ms <= 150ms
+2025-04-14 23:52:15,875 [INFO    ] Creating visualizations...
+2025-04-14 23:52:19,381 [INFO    ] Generated comprehensive performance plots
+2025-04-14 23:52:19,397 [INFO    ] Generating final report...
+2025-04-14 23:52:35,990 [INFO    ] Generated comprehensive PDF report: benchmarks/benchmark_report.pdf
+2025-04-14 23:52:35,990 [INFO    ] Benchmark completed in 22.08seconds. Final status: PASS
+2025-04-14 23:52:53,680 [INFO    ] Starting TCP Search Server Benchmark
+2025-04-14 23:52:53,680 [INFO    ] Generating test files...
+2025-04-14 23:52:53,680 [INFO    ] Running benchmark suite...
+2025-04-14 23:52:53,680 [INFO    ] Testing LINEAR search with MEMORY on10,000 records
+2025-04-14 23:52:53,942 [INFO    ] Testing LINEAR search with RE-READ on10,000 records
+2025-04-14 23:52:54,619 [INFO    ] Testing BINARY search with MEMORY on10,000 records
+2025-04-14 23:52:54,993 [INFO    ] Testing BINARY search with RE-READ on10,000 records
+2025-04-14 23:52:57,339 [INFO    ] Testing LINEAR search with MEMORY on50,000 records
+2025-04-14 23:52:57,480 [INFO    ] Testing LINEAR search with RE-READ on50,000 records
+2025-04-14 23:52:57,964 [INFO    ] Testing BINARY search with MEMORY on50,000 records
+2025-04-14 23:52:58,136 [INFO    ] Testing BINARY search with RE-READ on50,000 records
+2025-04-14 23:52:58,543 [INFO    ] Testing LINEAR search with MEMORY on100,000 records
+2025-04-14 23:52:58,668 [INFO    ] Testing LINEAR search with RE-READ on100,000 records
+2025-04-14 23:52:59,027 [INFO    ] Testing BINARY search with MEMORY on100,000 records
+2025-04-14 23:52:59,136 [INFO    ] Testing BINARY search with RE-READ on100,000 records
+2025-04-14 23:52:59,449 [INFO    ] Testing LINEAR search with MEMORY on200,000 records
+2025-04-14 23:52:59,574 [INFO    ] Testing LINEAR search with RE-READ on200,000 records
+2025-04-14 23:52:59,886 [INFO    ] Testing BINARY search with MEMORY on200,000 records
+2025-04-14 23:52:59,996 [INFO    ] Testing BINARY search with RE-READ on200,000 records
+2025-04-14 23:53:00,339 [INFO    ] Validating performance...
+2025-04-14 23:53:00,339 [INFO    ] PASS: LINEAR search (REREAD_OFF) - Average: 0.30ms <= 100ms, 99th Percentile: 0.77ms <= 150ms, 99.9th Percentile: 1.23ms <= 200ms
+2025-04-14 23:53:00,355 [INFO    ] PASS: LINEAR search (REREAD_ON) - Average: 0.78ms <= 500ms, 99th Percentile: 2.52ms <= 750ms, 99.9th Percentile: 15.31ms <= 1000ms
+2025-04-14 23:53:00,355 [INFO    ] PASS: BINARY search (REREAD_OFF) - Average: 0.26ms <= 15ms, 99th Percentile: 0.52ms <= 50ms, 99.9th Percentile: 1.19ms <= 70ms
+2025-04-14 23:53:00,355 [INFO    ] PASS: BINARY search (REREAD_ON) - Average: 0.81ms <= 50ms, 99th Percentile: 2.54ms <= 100ms, 99.9th Percentile: 5.47ms <= 150ms
+2025-04-14 23:53:00,355 [INFO    ] Creating visualizations...
+2025-04-14 23:53:03,072 [INFO    ] Generated comprehensive performance plots
+2025-04-14 23:53:03,072 [INFO    ] Generating final report...
+2025-04-14 23:53:19,872 [INFO    ] Generated comprehensive PDF report: benchmarks/benchmark_report.pdf
+2025-04-14 23:53:19,872 [INFO    ] Benchmark completed in 26.19seconds. Final status: PASS
+2025-04-15 00:00:10,243 [INFO    ] Starting TCP Search Server Benchmark
+2025-04-15 00:00:10,251 [INFO    ] Generating test files...
+2025-04-15 00:00:10,251 [INFO    ] Running benchmark suite...
+2025-04-15 00:00:10,251 [INFO    ] Testing LINEAR search with MEMORY on10,000 records
+2025-04-15 00:00:10,259 [ERROR   ] Benchmark failed for linear 10000 (reread=False): 'memoryview' object has no attribute 'find'
+2025-04-15 00:00:10,276 [INFO    ] Testing LINEAR search with RE-READ on10,000 records
+2025-04-15 00:00:11,139 [INFO    ] Testing BINARY search with MEMORY on10,000 records
+2025-04-15 00:00:11,150 [ERROR   ] Benchmark failed for binary 10000 (reread=False): 'memoryview' object has no attribute 'find'
+2025-04-15 00:00:11,150 [INFO    ] Testing BINARY search with RE-READ on10,000 records
+2025-04-15 00:00:12,652 [INFO    ] Testing LINEAR search with MEMORY on50,000 records
+2025-04-15 00:00:12,652 [ERROR   ] Benchmark failed for linear 50000 (reread=False): 'memoryview' object has no attribute 'find'
+2025-04-15 00:00:12,657 [INFO    ] Testing LINEAR search with RE-READ on50,000 records
+2025-04-15 00:00:13,906 [INFO    ] Testing BINARY search with MEMORY on50,000 records
+2025-04-15 00:00:13,911 [ERROR   ] Benchmark failed for binary 50000 (reread=False): 'memoryview' object has no attribute 'find'
+2025-04-15 00:00:13,911 [INFO    ] Testing BINARY search with RE-READ on50,000 records
+2025-04-15 00:00:16,222 [INFO    ] Testing LINEAR search with MEMORY on100,000 records
+2025-04-15 00:00:16,222 [ERROR   ] Benchmark failed for linear 100000 (reread=False): 'memoryview' object has no attribute 'find'
+2025-04-15 00:00:16,222 [INFO    ] Testing LINEAR search with RE-READ on100,000 records
+2025-04-15 00:00:17,089 [INFO    ] Testing BINARY search with MEMORY on100,000 records
+2025-04-15 00:00:17,089 [ERROR   ] Benchmark failed for binary 100000 (reread=False): 'memoryview' object has no attribute 'find'
+2025-04-15 00:00:17,089 [INFO    ] Testing BINARY search with RE-READ on100,000 records
+2025-04-15 00:00:17,948 [INFO    ] Testing LINEAR search with MEMORY on200,000 records
+2025-04-15 00:00:17,948 [ERROR   ] Benchmark failed for linear 200000 (reread=False): 'memoryview' object has no attribute 'find'
+2025-04-15 00:00:17,963 [INFO    ] Testing LINEAR search with RE-READ on200,000 records
+2025-04-15 00:00:19,774 [INFO    ] Testing BINARY search with MEMORY on200,000 records
+2025-04-15 00:00:19,774 [ERROR   ] Benchmark failed for binary 200000 (reread=False): 'memoryview' object has no attribute 'find'
+2025-04-15 00:00:19,777 [INFO    ] Testing BINARY search with RE-READ on200,000 records
+2025-04-15 00:00:21,051 [INFO    ] Validating performance...
+2025-04-15 00:00:21,328 [WARNING ] No data for linear reread_off at 200000 records
+2025-04-15 00:00:21,336 [INFO    ] PASS: LINEAR search (REREAD_ON) - Average: 4.49ms <= 500ms, 99th Percentile: 87.64ms <= 750ms, 99.9th Percentile: 212.81ms <= 1000ms
+2025-04-15 00:00:21,347 [WARNING ] No data for binary reread_off at 200000 records
+2025-04-15 00:00:21,357 [INFO    ] PASS: BINARY search (REREAD_ON) - Average: 2.78ms <= 50ms, 99th Percentile: 16.93ms <= 100ms, 99.9th Percentile: 32.30ms <= 150ms
+2025-04-15 00:00:21,357 [INFO    ] Creating visualizations...
+2025-04-15 00:00:26,602 [INFO    ] Generated comprehensive performance plots
+2025-04-15 00:00:26,602 [INFO    ] Generating final report...
+2025-04-15 00:00:43,439 [INFO    ] Generated comprehensive PDF report: benchmarks/benchmark_report.pdf
+2025-04-15 00:00:43,439 [INFO    ] Benchmark completed in 33.20seconds. Final status: PASS
+2025-04-15 00:02:42,766 [INFO    ] Starting TCP Search Server Benchmark
+2025-04-15 00:02:42,766 [INFO    ] Generating test files...
+2025-04-15 00:02:42,766 [INFO    ] Running benchmark suite...
+2025-04-15 00:02:42,766 [INFO    ] Testing LINEAR search with MEMORY on10,000 records
+2025-04-15 00:02:42,782 [ERROR   ] Benchmark failed for linear 10000 (reread=False): 'memoryview' object has no attribute 'find'
+2025-04-15 00:02:42,782 [INFO    ] Testing LINEAR search with RE-READ on10,000 records
+2025-04-15 00:02:43,404 [INFO    ] Testing BINARY search with MEMORY on10,000 records
+2025-04-15 00:02:43,404 [ERROR   ] Benchmark failed for binary 10000 (reread=False): 'memoryview' object has no attribute 'find'
+2025-04-15 00:02:43,421 [INFO    ] Testing BINARY search with RE-READ on10,000 records
+2025-04-15 00:02:44,264 [INFO    ] Testing LINEAR search with MEMORY on50,000 records
+2025-04-15 00:02:44,301 [ERROR   ] Benchmark failed for linear 50000 (reread=False): 'memoryview' object has no attribute 'find'
+2025-04-15 00:02:44,307 [INFO    ] Testing LINEAR search with RE-READ on50,000 records
+2025-04-15 00:02:44,988 [INFO    ] Testing BINARY search with MEMORY on50,000 records
+2025-04-15 00:02:44,988 [ERROR   ] Benchmark failed for binary 50000 (reread=False): 'memoryview' object has no attribute 'find'
+2025-04-15 00:02:44,988 [INFO    ] Testing BINARY search with RE-READ on50,000 records
+2025-04-15 00:02:45,744 [INFO    ] Testing LINEAR search with MEMORY on100,000 records
+2025-04-15 00:02:45,748 [ERROR   ] Benchmark failed for linear 100000 (reread=False): 'memoryview' object has no attribute 'find'
+2025-04-15 00:02:45,757 [INFO    ] Testing LINEAR search with RE-READ on100,000 records
+2025-04-15 00:02:46,462 [INFO    ] Testing BINARY search with MEMORY on100,000 records
+2025-04-15 00:02:46,462 [ERROR   ] Benchmark failed for binary 100000 (reread=False): 'memoryview' object has no attribute 'find'
+2025-04-15 00:02:46,474 [INFO    ] Testing BINARY search with RE-READ on100,000 records
+2025-04-15 00:02:47,524 [INFO    ] Testing LINEAR search with MEMORY on200,000 records
+2025-04-15 00:02:47,524 [ERROR   ] Benchmark failed for linear 200000 (reread=False): 'memoryview' object has no attribute 'find'
+2025-04-15 00:02:47,531 [INFO    ] Testing LINEAR search with RE-READ on200,000 records
+2025-04-15 00:02:48,269 [INFO    ] Testing BINARY search with MEMORY on200,000 records
+2025-04-15 00:02:48,277 [ERROR   ] Benchmark failed for binary 200000 (reread=False): 'memoryview' object has no attribute 'find'
+2025-04-15 00:02:48,280 [INFO    ] Testing BINARY search with RE-READ on200,000 records
+2025-04-15 00:02:49,038 [INFO    ] Validating performance...
+2025-04-15 00:02:49,038 [WARNING ] No data for linear reread_off at 200000 records
+2025-04-15 00:02:49,054 [INFO    ] PASS: LINEAR search (REREAD_ON) - Average: 1.81ms <= 500ms, 99th Percentile: 5.68ms <= 750ms, 99.9th Percentile: 11.57ms <= 1000ms
+2025-04-15 00:02:49,054 [WARNING ] No data for binary reread_off at 200000 records
+2025-04-15 00:02:49,062 [INFO    ] PASS: BINARY search (REREAD_ON) - Average: 1.78ms <= 50ms, 99th Percentile: 6.73ms <= 100ms, 99.9th Percentile: 8.86ms <= 150ms
+2025-04-15 00:02:49,062 [INFO    ] Creating visualizations...
+2025-04-15 00:02:52,286 [INFO    ] Generated comprehensive performance plots
+2025-04-15 00:02:52,286 [INFO    ] Generating final report...
+2025-04-15 00:03:06,753 [INFO    ] Generated comprehensive PDF report: benchmarks/benchmark_report.pdf
+2025-04-15 00:03:06,753 [INFO    ] Benchmark completed in 23.99seconds. Final status: PASS
+2025-04-15 00:04:56,633 [INFO    ] Starting TCP Search Server Benchmark
+2025-04-15 00:04:56,633 [INFO    ] Generating test files...
+2025-04-15 00:04:56,633 [INFO    ] Running benchmark suite...
+2025-04-15 00:04:56,633 [INFO    ] Testing LINEAR search with MEMORY on10,000 records
+2025-04-15 00:04:56,633 [ERROR   ] Benchmark failed for linear 10000 (reread=False): 'memoryview' object has no attribute 'find'
+2025-04-15 00:04:56,633 [INFO    ] Testing LINEAR search with RE-READ on10,000 records
+2025-04-15 00:04:57,295 [INFO    ] Testing BINARY search with MEMORY on10,000 records
+2025-04-15 00:04:57,295 [ERROR   ] Benchmark failed for binary 10000 (reread=False): 'memoryview' object has no attribute 'find'
+2025-04-15 00:04:57,304 [INFO    ] Testing BINARY search with RE-READ on10,000 records
+2025-04-15 00:04:58,099 [INFO    ] Testing LINEAR search with MEMORY on50,000 records
+2025-04-15 00:04:58,099 [ERROR   ] Benchmark failed for linear 50000 (reread=False): 'memoryview' object has no attribute 'find'
+2025-04-15 00:04:58,111 [INFO    ] Testing LINEAR search with RE-READ on50,000 records
+2025-04-15 00:04:58,849 [INFO    ] Testing BINARY search with MEMORY on50,000 records
+2025-04-15 00:04:58,849 [ERROR   ] Benchmark failed for binary 50000 (reread=False): 'memoryview' object has no attribute 'find'
+2025-04-15 00:04:58,860 [INFO    ] Testing BINARY search with RE-READ on50,000 records
+2025-04-15 00:05:00,062 [INFO    ] Testing LINEAR search with MEMORY on100,000 records
+2025-04-15 00:05:00,070 [ERROR   ] Benchmark failed for linear 100000 (reread=False): 'memoryview' object has no attribute 'find'
+2025-04-15 00:05:00,074 [INFO    ] Testing LINEAR search with RE-READ on100,000 records
+2025-04-15 00:05:00,869 [INFO    ] Testing BINARY search with MEMORY on100,000 records
+2025-04-15 00:05:00,869 [ERROR   ] Benchmark failed for binary 100000 (reread=False): 'memoryview' object has no attribute 'find'
+2025-04-15 00:05:00,882 [INFO    ] Testing BINARY search with RE-READ on100,000 records
+2025-04-15 00:05:01,974 [INFO    ] Testing LINEAR search with MEMORY on200,000 records
+2025-04-15 00:05:01,974 [ERROR   ] Benchmark failed for linear 200000 (reread=False): 'memoryview' object has no attribute 'find'
+2025-04-15 00:05:01,985 [INFO    ] Testing LINEAR search with RE-READ on200,000 records
+2025-04-15 00:05:02,712 [INFO    ] Testing BINARY search with MEMORY on200,000 records
+2025-04-15 00:05:02,712 [ERROR   ] Benchmark failed for binary 200000 (reread=False): 'memoryview' object has no attribute 'find'
+2025-04-15 00:05:02,721 [INFO    ] Testing BINARY search with RE-READ on200,000 records
+2025-04-15 00:05:03,536 [INFO    ] Validating performance...
+2025-04-15 00:05:03,547 [WARNING ] No data for linear reread_off at 200000 records
+2025-04-15 00:05:03,552 [INFO    ] PASS: LINEAR search (REREAD_ON) - Average: 1.80ms <= 500ms, 99th Percentile: 8.50ms <= 750ms, 99.9th Percentile: 10.70ms <= 1000ms
+2025-04-15 00:05:03,557 [WARNING ] No data for binary reread_off at 200000 records
+2025-04-15 00:05:03,557 [INFO    ] PASS: BINARY search (REREAD_ON) - Average: 1.92ms <= 50ms, 99th Percentile: 10.24ms <= 100ms, 99.9th Percentile: 13.66ms <= 150ms
+2025-04-15 00:05:03,557 [INFO    ] Creating visualizations...
+2025-04-15 00:05:06,545 [INFO    ] Generated comprehensive performance plots
+2025-04-15 00:05:06,618 [INFO    ] Generating final report...
+2025-04-15 00:05:24,556 [INFO    ] Generated comprehensive PDF report: benchmarks/benchmark_report.pdf
+2025-04-15 00:05:24,556 [INFO    ] Benchmark completed in 27.92seconds. Final status: PASS
+2025-04-15 00:20:01,703 [INFO    ] Starting TCP Search Server Benchmark
+2025-04-15 00:20:01,703 [INFO    ] Generating test files...
+2025-04-15 00:20:01,703 [INFO    ] Running benchmark suite...
+2025-04-15 00:20:01,703 [INFO    ] Testing LINEAR search with MEMORY on10,000 records
+2025-04-15 00:20:01,923 [INFO    ] Testing LINEAR search with RE-READ on10,000 records
+2025-04-15 00:20:02,632 [INFO    ] Testing BINARY search with MEMORY on10,000 records
+2025-04-15 00:20:02,964 [INFO    ] Testing BINARY search with RE-READ on10,000 records
+2025-04-15 00:20:03,777 [INFO    ] Testing LINEAR search with MEMORY on50,000 records
+2025-04-15 00:20:04,131 [INFO    ] Testing LINEAR search with RE-READ on50,000 records
+2025-04-15 00:20:05,572 [INFO    ] Testing BINARY search with MEMORY on50,000 records
+2025-04-15 00:20:05,926 [INFO    ] Testing BINARY search with RE-READ on50,000 records
+2025-04-15 00:20:08,593 [INFO    ] Testing LINEAR search with MEMORY on100,000 records
+2025-04-15 00:20:09,337 [INFO    ] Testing LINEAR search with RE-READ on100,000 records
+2025-04-15 00:20:10,282 [INFO    ] Testing BINARY search with MEMORY on100,000 records
+2025-04-15 00:20:11,021 [INFO    ] Testing BINARY search with RE-READ on100,000 records
+2025-04-15 00:20:11,865 [INFO    ] Testing LINEAR search with MEMORY on200,000 records
+2025-04-15 00:20:12,179 [INFO    ] Testing LINEAR search with RE-READ on200,000 records
+2025-04-15 00:20:13,343 [INFO    ] Testing BINARY search with MEMORY on200,000 records
+2025-04-15 00:20:13,636 [INFO    ] Testing BINARY search with RE-READ on200,000 records
+2025-04-15 00:20:14,302 [INFO    ] Validating performance...
+2025-04-15 00:20:14,311 [INFO    ] PASS: LINEAR search (REREAD_OFF) - Average: 0.73ms <= 100ms, 99th Percentile: 2.88ms <= 150ms, 99.9th Percentile: 4.27ms <= 200ms
+2025-04-15 00:20:14,321 [INFO    ] PASS: LINEAR search (REREAD_ON) - Average: 2.86ms <= 500ms, 99th Percentile: 45.38ms <= 750ms, 99.9th Percentile: 81.54ms <= 1000ms
+2025-04-15 00:20:14,321 [INFO    ] PASS: BINARY search (REREAD_OFF) - Average: 0.70ms <= 15ms, 99th Percentile: 2.95ms <= 50ms, 99.9th Percentile: 3.83ms <= 70ms
+2025-04-15 00:20:14,327 [INFO    ] PASS: BINARY search (REREAD_ON) - Average: 1.56ms <= 50ms, 99th Percentile: 4.21ms <= 100ms, 99.9th Percentile: 6.01ms <= 150ms
+2025-04-15 00:20:14,327 [INFO    ] Creating visualizations...
+2025-04-15 00:20:16,819 [INFO    ] Generated comprehensive performance plots
+2025-04-15 00:20:16,832 [INFO    ] Generating final report...
+2025-04-15 00:20:31,698 [INFO    ] Generated comprehensive PDF report: benchmarks/benchmark_report.pdf
+2025-04-15 00:20:31,698 [INFO    ] Benchmark completed in 30.00seconds. Final status: PASS
